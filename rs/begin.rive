@@ -1,0 +1,29 @@
+! version = 2.0
+
+> begin
+	+ request
+	- {ok}
+< begin
+
+// El nombre de los creadores del bot
+! var creadores = Los ++
+
+// Variables del bot
+! var nombre = LinguaBot+
+
+// Arreglos
+! array pronombresmasculinos = hombre tipo niño caballero
+! array pronombresfemeninos  = mujer tipa niña dama
+! array si					 = sí si afirmativo ok bien
+! array no					 = no nel
+! array saludos				 = hola|buenos dias|buenos días|buenas tardes|buenas noches|qué onda
+^ qué tal|que onda|que tal
+! array decirnombre			 = mi nombre es|me llamo|soy
+
+// Substituciones de pronombres
+! person yo soy  = tú eres
+! person tú eres = yo soy
+! person mi      = tu
+! person tu      = mi
+! person tú      = yo
+! person yo      = tú

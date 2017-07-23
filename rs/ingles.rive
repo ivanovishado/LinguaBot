@@ -1,0 +1,54 @@
++ [*] @saludos [*]
+- Hola, soy LinguaBot+. ¿Me regalas tu nombre?
+- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+. ¿Cuál es tu nombre?
+- Qué tal, me llamo LinguaBot+. ¿Cómo te llamas?
+
++ como estas
+- Vaya, nadie me pregunta eso. ¡Bien, gracias!
+- ¡Muy bien, gracias por preguntar!
+
++ @decirnombre *
+- ¡Mucho gusto, <set nombre=<formal>>!\n
+^ Tengo cuatro secciones. ¿Cuál te interesa repasar?\n
+^ 1. ARTÍCULOS, PREPOSICIONES, VOCABULARIO\n
+^ 2. PRONOMBRES, NUMEROS, PLURALES, VOCABULARIO (SALUDOS), VOCABULARIO(PERSONAS)\n
+^ 3. VERBO TO BE, TO HAVE, TO DO, TIEMPOS VERBALES, FORMAS CORTAS, VOCABULARIO (FAMILIA)\n
+^ 4. ACTIVIDADES
+^ {topic=secciones}
+
++ (como me llamo|cual es mi nombre)
+* <get nombre> == undefined => No me has dicho tu nombre.
+- Tu nombre es <get nombre>.
+- ¿No eres <get nombre>?
+
++ donde esta *
+- En tu corazón.
+- Donde lo dejaste.
+- Donde pertenece.
+
++ *
+- Perdón, pero no comprendí lo que acabas de decir.
+- Lo siento, no entendí que dijiste.
+- ¿Puedes repetir de otra forma eso último?
+
++ (como te llamas|cual es tu nombre)
+- Mi nombre es <bot nombre>
+- Me dicen <bot nombre>
+- Me llamo <bot nombre>
+
++ quien te (creo|hizo)
+- Mis creadores se llaman <bot creadores>
+
+> topic secciones
+	+ primera seccion
+	- Estos son los temas de la primera sección. {topic=primeraseccion}
+
+	+ segunda seccion
+	- ...
+
+	+ tercera seccion
+	- ...
+
+	+ cuarta seccion
+	- ...
+< topic
