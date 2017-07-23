@@ -42,7 +42,7 @@ en una dirección url pública
     2. Descomprimir
     3. Ejecutar
 
-        ./ngrok 5000
+        ./ngrok http 5000
 
     4. Al ejecutarse te dará una dirección publica, con esa hay que configurar
        el chatbot en facebook
