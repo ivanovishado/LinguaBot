@@ -112,3 +112,6 @@ ENV/
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+# Miscellaneous (for security reasons)
+config.py
