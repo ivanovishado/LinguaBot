@@ -1,10 +1,12 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 from __future__ import print_function
 
 from flask import Flask, request
 from tinydb import TinyDB, Query
 from rivescript import RiveScript
+from fbmq import Attachment, Template, QuickReply, Page
 import argparse
 import json
 import requests
