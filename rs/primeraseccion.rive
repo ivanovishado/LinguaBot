@@ -1,3 +1,273 @@
-> topic primeraseccion
+> topic primeraseccion includes secciones
+
+	+ [los] articulos
+	- Claro existen 2 tipos de articulos:\n
+	^ ¿Cuál te interesa repasar?.\n
+	^ Articulos DEtermiandos.\n
+	^ Articulos Indeterminados.\n
+
+	+ [los] [articulos] determinados
+	- Muy bien, el  artículo definido o determinante se traduce en inglés por The.\n{topic=articulosdeterminados}
+	^ Es invariable y corresponde a las formas españolas el, la, los, las.\n
+	^ ¿Qué quieres hacer?\n
+	^ Ver ejemplos\n
+	^ Siguiente tema
+
+	+ [los] [articulos] indeterminados
+	- Excelente, El artículo indeterminado a / an, corresponde a los artículos en español: un, una:\n {topic=indeterminados}
+	^ "A" se usa con nombres que comienzan por consonante.\n
+	^ "An" se usa con nombres que comienzan por vocal.\n
+	^ ¿Te gustaría ver algunos ejemplos?
+
+	+ [las] preposiciones
+	- Excelente, existen dos tipos de preposiciones, ¿cuál te gustaría estudiar primero?\n {topic=preposiciones}
+	^ De tiempo y lugar.\n
+	^ De lugar y movimiento.\n
+
+	+ colores
+	- Excelente, repasaremos la forma en la que se dicen los colores en inglés, presta atención:\n
+	^ black = negro\n
+	^ blue = azul\n
+	^ brown = marrón\n
+	^ green = verde\n
+	^ grey = gris\n
+	^ navy = azul marino\n
+	^ orange = naranja\n
+	^ pink = rosa\n
+	^ purple = violeta / morado\n
+	^ red = rojo\n
+	^ white = blanco\n
+	^ yellow = amarillo\n
+	^ para ver otro tema por favor escribe "siguiente tema"
+
+
+	+ siguiente tema
+	- Estos son los siguientes temas, ¿cuál te gustaría estudiar?\n
+	^ 1. ARTÍCULOS determinados.\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+
+
+< topic
+
+> topic articulosdeterminados includes primeraseccion
+
+	+ ver ejemplos
+	- Genial, aquí vamos, tenemos entonces que:\n
+	^ The boy (el niño)\n
+	^ The boys (los niños)\n
+	^ The girl (la niña)\n
+	^ The girls (las niñas)\n
+	^ The book (el libro)\n
+	^ The books (los libros)\n
+	^ ¿Quieres saber más?
+
+	+ siguiente tema
+	- Wow, realmente tienes un don para este idioma, aquí están los demás temas\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+	^ 4. LOS COLORES.
+
+	+ @si
+	- El artículo definido puede ir precedido de las preposiciones of, to. En inglés no haycontracción de preposición y artículo: del y al se traducen por of the (del) to the (a el).\n
+	^ ¿Qué te gustaría hacer?\n
+	^ Siguiente tema\n
+	^ Ejemplos
+
+	+ ejemplos
+	- Aquí tenemos que:\n
+	^ Of the village. (del pueblo)\n
+	^ Of the house. (de la casa)\n
+	^ To the garden (al jardín)\n
+	^ To the door (a la puerta)\n
+	^ ¿Qué tal si vemos usos de los artículos determinados? (escribir "usos de articulos determinados")
+
+	+ @no
+	- Oh, correcto, continuemos entonces, ¿qué tema quieres ver ahora?\n
+	- Creí que si querrías :( , está bien, respeto tu decisión, ¿siguiente tema?\n
+	- Hmm okok, no hay pedo :v, ¿quieres ver otro tema?\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+	^ 4. LOS COLORES.
+
+	+ usos de articulos determinados
+	- Pefecto, lo utilizamos cuando:\n
+	^ Sabemos de quien o de que estamos hablando.\n
+	^ Hablamos de algo que lo hemos mencionado en una frase anterior.\n
+	^ Usamos adjetivos en grado superlativo.\n
+	^ Los sustantivos cuando indican un tipo o clase en general.\n
+	^ Los nombres propios de océanos, mares, montañas, naciones en plural.\n
+	^ Los adjetivos abstractos.\n
+	^ ¿Qué otra cosa con respecto a este tema te gustaría ver?\n
+	^ Ejemplos de artículos determinados\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+	^ 4. LOS COLORES.
+
+	+ ejemplos de articulos determinados
+	- Excelente:\n
+	^ Can I have the drink? (¿puedo tomar la bebida?) cuando sabemos de que bebida hablamos.\n
+	^ Mr. and Mrs. Jones have a daughter and two sons. The daughter is a doctor.(El sr. y la sra. Jones tienen una hija y dos hijos. La hija es doctora)\n
+	^ She is the best. (ella es la mejor)\n
+	^ ¿Quieres ver cuando no se usa este artículo?\n
+	^ Cuando no se usan articulos determinados (escribir "cuando no se usan articulos determinados")\n
+	^ No gracias
+
+
+	+ no gracias
+	- Muy bien, podemos pasar con los demás temas, ¿te gustaría?\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+	^ 4. LOS COLORES.
+
+	+ cuando no se usan articulos determinados
+	- Bien, veamos:\n
+	^ Cuando hablamos de algo en general.\n
+	^ Delante de términos geográficos o topónimos.\n
+	^ Delante de nombres de personas aunque estos estén precedidos de títulos.\n
+	^ Delante de meses, estaciones y días festivos.\n
+	^ Delante de las comidas generales como almuerzo, cena..\n
+	^ Cuando hablamos de partes del cuerpo usando el verbo to have (tener)\n
+	^ Delante de next (próximo, siguiente) y last (último, pasado)\n
+	^ ¿Deseas ver algunos ejemplos de cuando no se usan?\n
+	^ Ejemplos de cuando no se usan (escribir "ejemplos de cuando no se usan articulos determinados")
+	^ Por ahora no, gracias
+
+	+ ejemplos de cuando no se usan articulos determinados
+	- ¡Esa es la actitud, aquí vamos!:\n
+	^ Houses are expensive. (las casas son caras)\n
+	^ Life isn't easy. (la vida no es fácil)\n
+	^ Fifth Avenue. (la quinta avenida)\n
+	^ Spain. (España)\n
+	^ King Charles (el rey Carlos)\n
+	^ We see you in September. (te veremos en septiembre)\n
+	^ Parece que terminaste con el primer tema, ¿qué otro tema te gustaría conocer?\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+	^ 4. LOS COLORES
+
+< topic
+
+> topic indeterminados includes primeraseccion
+
+	+ @si
+	- Muy bien aquí tenemos ejemplos de "A":\n
+	^ a book = un libro.\n
+	^ a pen = un bolígrafo.\n
+	^ a chair = una silla.\n
+	^ ¿Qué quieres hacer?\n
+	^ Ver ejemplos\n
+	^ Usos de artículos indeterminados
+
+	+ @no
+	- Oh perfecto, hay algunas otras cosas que puedes probar\n
+	^ Usos de artículos indeterminados\n
+	^ Cuando no usar artículos indeterminados ("cuando no usar articulos indeterminados")
+
+
+	+ ver ejemplos
+	- Me gustan tus ganas de aprender, tenemos entonces:\n
+	^ an animal = un animal.\n
+	^ an answer = una contestación.\n
+	^ an example = un ejemplo.\n
+	^ Usos de artículos indeterminados
+
+	+ usos de articulos indeterminados
+	- Usamos a / an delante de los nombres singulares.\n
+	^ Usamos a / an cuando hablamos del oficio de alguién.\n
+	^ Parece ser el momento perfecto para unos ejemplos, ¿qué dices?\n
+	^ Ejemplos\n
+	^ Siguiente tema
+
+	+ ejemplos
+	- Me sorprende tu entusiasmo:\n
+	^ Have you got a bicycle? (¿tienes una bicicleta?)\n
+	^ I've got an umbrella. (Yo tengo un paraguas)\n
+	^ Maria is a journalist. (Maria es una periodista)\n
+	^ Es importante saber cuando no usarlos, ¿quieres saber de ello?\n
+	^ Cuando no usar articulos indeterminados (escribir "cuando no usar articulos indeterminados")
+
+	+ cuando no usar articulos indeterminados
+	- No usamos a / an delante de nombres plurales.\n
+	^ Parece que terminaste con el segundo tema, ¿qué otro tema te gustaría conocer?\n
+	^ 1. ARTÍCULOS DETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+	^ 4. LOS COLORES.
+
+< topic
+
+> topic preposiciones includes primeraseccion
+
+	+ [de] tiempo y lugar
+	- ON, significado: sobre, encima de, de, al.\n
+	^ IN, significado: en, dentro, dentro de, hacia adentro.\n
+	^ AT, significado: en, a, por, delante, cerca de.\n
+	^ Repasar con ejemplos ayuda a que tu comprehensión sea mejor, ¿qué dices?, ¿repasamos con ejemplos?
+
+
+	+ @si
+	- ¿Qué preposición te gustaría revisar primero?\n
+	^ ON.\n
+	^ IN.\n
+	^ AT.
+
+	+ @no
+	- Está bien, entonces quieres ver
+
+	+ on
+	- My flat is on the first floor. (mi piso está en la primera planta)\n
+	^ You don't work on Sunday. (tu no trabajas el domingo)\n
+	^ On 10th june. (el 10 de junio)\n
+	^ They go to church on Christmas day. (ellos van a la iglesia en el día de Navidad)\n
+	^ ¿Qué preposición te gustaría revisar ahora?\n
+	^ ON.\n
+	^ IN.\n
+	^ AT. \n
+
+	+ in
+	- I live in Brighton. (vivo en Brigthion)\n
+	^ My birthday is in June (mi cumpleaños es en junio)\n
+	^ I was born in 1970. (nací en 1970)\n
+    ^ We often go swimming in the summer. (nosotros solemos ir a nadar en verano)\n
+    ^ ¿Qué preposición te gustaría revisar ahora?\n
+	^ ON.\n
+	^ IN.\n
+	^ AT. \n
+
+	+ at
+	- I live at 42 Portland Street. (vivo en el 42 de Portland Street)\n
+	^ He is at home (él esta en casa)\n
+	^ I usually get up at 7 o'clock. (normalmente me levanto a las 7 en punto)\n
+	^ I always visit my parents at Chirstmas (siempre visito a mis padres en Navidades)\n
+	^ ¿Qué otra preposición te gustaría ver?
+
+	+ de lugar y movimiento
+	- Opposite, significado: contrario, en frente de.\n
+	^ On the corner, significado: en la esquina.\n
+	^ Between, significado: entre.\n
+	^ In front of, significado: enfrente de, delante de.\n
+	^ Near, significado: cerca.\n
+	^ Behind, significado: detrás de.\n
+	^ Next to, significado: a continuación de, al lado de.\n
+	^ Into, out of, significado: dentro de. \n
+	^ Out of, significado: fuera de.\n
+	^ ¿Qué deseas hacer ahora? ¿qué te parece revisar algunos ejemplos?\n
+	^ Ver ejemplos\n
+	^ Siguiente tema
+
+	+ ver ejemplos
+	- The hotel is opposite the station. (el hotel está en frente de la estación)\n
+	^ The bank is on the corner. (el banco está en la esquina)\n
+	^ The shop is between the baker's and the station. (la tienda está entre la panaderia y la estación)\n
+	^ There is a bus stop in front of the flower shop. (hay una parada de bus en frente de la floristería)\n
+	^ The school is near the bank. (la escuela está cerca del banco)\n
+	^ The church is behind the school. (la iglesia está detrás de la escuela)\n
+	^ It's next to the chemist's. (está junto a la farmácia.)\n
+	^ The woman is diving into the water (la mujer esta zambulléndose dentro del agua)\n
+	^ My mother is out of the room. (mi madre está fuera de la habitación)\n
+	^ Parece ser que has terminado el tercer tema, ¿qué otro tema quieres dominar?\n
+	^ 1. ARTÍCULOS DETERMINADOS.\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 4. LOS COLORES.
 
 < topic

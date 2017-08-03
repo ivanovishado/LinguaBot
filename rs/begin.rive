@@ -11,14 +11,26 @@
 // Variables del bot
 ! var nombre = LinguaBot+
 
+// Substituciones
+! sub k = que
+! sub q = que
+! sub ke = que
+! sub qe = que
+! sub haiga = haya
+! sub aiga = haya
+! sub ola = hola
+
 // Arreglos
-! array pronombresmasculinos = hombre tipo niño caballero
-! array pronombresfemeninos  = mujer tipa niña dama
-! array si					 = sí si afirmativo ok bien
-! array no					 = no nel
+! array pronombresmasculinos = hombre tipo niño caballero muchacho
+! array pronombresfemeninos  = mujer tipa niña dama muchacha
+! array si					 = sí si afirmativo ok bien claro yeah yes gracias
+! array no					 = no nel nah nope
 ! array saludos				 = hola|buenos dias|buenos días|buenas tardes|buenas noches|qué onda
-^ qué tal|que onda|que tal
-! array decirnombre			 = mi nombre es|me llamo|soy
+^ qué tal|que onda|que tal|hi|hellow
+! array despedidas			 = adios|adiós|goodbye|good bye|hasta luego|bye
+! array decirnombre			 = mi nombre es|me llamo|soy|me dicen
+! array gracias				 = muchas gracias|gracias|bien gracias
+! array mal					 = mal|no muy bien|muy mal
 
 // Substituciones de pronombres
 ! person yo soy  = tú eres

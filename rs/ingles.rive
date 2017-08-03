@@ -1,54 +1,107 @@
++ [*] (@si|@gracias) [*]
+- ¡Qué gusto que estés bien!\n
+^ ¡Repasemos inglés para que te sientas aún mejor!\n{@ quiero repasar ingles}
+
++ quiero repasar ingles
+- Tengo cuatro secciones. ¿Cuál te interesa repasar?\n
+^ Sección 1: ARTÍCULOS, PREPOSICIONES, VOCABULARIO\n
+^ Sección 2: PRONOMBRES, NUMEROS, PLURALES, VOCABULARIO (SALUDOS), VOCABULARIO(PERSONAS)\n
+^ Sección 3: VERBO TO BE, TO HAVE, TO DO, TIEMPOS VERBALES, FORMAS CORTAS, VOCABULARIO (FAMILIA)\n
+^ Sección 4: ACTIVIDADES{topic=secciones}
+
++ [*] @mal [*]
+- Lo lamento mucho.\n
+^ ¡Repasemos inglés para levantar esos ánimos!\n{@ quiero repasar ingles}
+
 + [*] @saludos [*]
-- Hola, soy LinguaBot+. ¿Me regalas tu nombre?
-- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+. ¿Cuál es tu nombre?
-- Qué tal, me llamo LinguaBot+. ¿Cómo te llamas?
-
-+ como estas
-- Vaya, nadie me pregunta eso. ¡Bien, gracias!
-- ¡Muy bien, gracias por preguntar!
-
-+ @decirnombre *
-- ¡Mucho gusto, <set nombre=<formal>>!\n
-^ Tengo cuatro secciones. ¿Cuál te interesa repasar?\n
-^ 1. ARTÍCULOS, PREPOSICIONES, VOCABULARIO\n
-^ 2. PRONOMBRES, NUMEROS, PLURALES, VOCABULARIO (SALUDOS), VOCABULARIO(PERSONAS)\n
-^ 3. VERBO TO BE, TO HAVE, TO DO, TIEMPOS VERBALES, FORMAS CORTAS, VOCABULARIO (FAMILIA)\n
-^ 4. ACTIVIDADES
-^ {topic=secciones}
-
-+ (como me llamo|cual es mi nombre)
-* <get nombre> == undefined => No me has dicho tu nombre.
-- Tu nombre es <get nombre>.
-- ¿No eres <get nombre>?
-
-+ donde esta *
-- En tu corazón.
-- Donde lo dejaste.
-- Donde pertenece.
+- Hola, soy LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
+- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
+- Qué tal, me llamo LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
 
 + *
 - Perdón, pero no comprendí lo que acabas de decir.
 - Lo siento, no entendí que dijiste.
 - ¿Puedes repetir de otra forma eso último?
 
-+ (como te llamas|cual es tu nombre)
-- Mi nombre es <bot nombre>
-- Me dicen <bot nombre>
-- Me llamo <bot nombre>
+> topic global
+	+ [*] @saludos [*]
+	- Hola, soy LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
+	- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
+	- Qué tal, me llamo LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
 
-+ quien te (creo|hizo)
-- Mis creadores se llaman <bot creadores>
+	+ como estas
+	- Vaya, nadie me pregunta eso. ¡Bien, gracias!
+	- ¡Muy bien, gracias por preguntar!
 
-> topic secciones
-	+ primera seccion
-	- Estos son los temas de la primera sección. {topic=primeraseccion}
+	+ (como me llamo|cual es mi nombre)
+	* <get nombre> == undefined => No me has dicho tu nombre.
+	- Tu nombre es <get nombre>.
+	- ¿No eres <get nombre>?
+	- ¡Te llamas <get nombre>!
 
-	+ segunda seccion
-	- ...
+	+ donde esta *
+	- En tu corazón.
+	- Donde lo dejaste.
+	- Donde pertenece.
 
-	+ tercera seccion
-	- ...
+	+ *
+	- Perdón, pero no comprendí lo que acabas de decir.
+	- Lo siento, no entendí que dijiste.
+	- ¿Puedes repetir de otra forma eso último?
 
-	+ cuarta seccion
-	- ...
+	+ (como te llamas|cual es tu nombre)
+	- Mi nombre es <bot nombre>
+	- Me dicen <bot nombre>
+	- Me llamo <bot nombre>
+
+	+ quien te (creo|hizo)
+	- Mis creadores se llaman <bot creadores>
+
+	+ quiero cambiar [mi] nombre
+	// TODO: VER COMO ALMACENAR EL TÓPICO ANTERIOR
+	- Claro. ¿A cuál lo quieres cambiar?{topic=cambionombre}
+
+	+ @despedidas
+	- Que te vaya bien, <get nombre>.
+	- Gracias por usar el servicio, <get nombre>.
+	- Adiós, <get nombre>.
+	- Hasta luego, <get nombre>.
+
+	+ reiniciar
+	- Reiniciando . . .{topic=random}
+< topic
+
+> topic cambionombre includes global
+	+ [quiero cambiarlo] [a] *
+	- Muy bien. ¡De ahora en adelante, te recordaré como <set nombre=<formal>><get nombre>!{topic=random}
+< topic
+
+> topic secciones includes global
+	+ [*] (primera [seccion]|[seccion] 1) [*]
+	- Estos son los temas de la primera sección.{topic=primeraseccion}
+
+	+ [*] (segunda [seccion]|[seccion] 2) [*]
+	- Ok, dentro de la segunda sección tengo los siguientes temas:\n{topic=segundaseccion}
+	^ Los pronombres personales.\n
+	^ Los números cardinales y ordinales.\n
+	^ Formar plurales.\n
+	^ Vocabulario: Presentaciones y personas.\n
+	^ ¿Cuál de los temas de la segunda sección te interesa repasar?
+
+	+ [*] (tercera [seccion]|[seccion] 3) [*]
+	- Estos son los temas de la tercera sección.\n
+	^ Verbo to be\n{topic=terceraseccion}
+	^ Verbo to have\n
+	^ Verbo to do\n
+	^ Formas cortas\n
+	^ Vocabulario familiar\n
+
+	+ [*] (cuarta [seccion]|[seccion] 4) [*]
+	- Esa sección no está disponible por el momento. Disculpa las molestias.{topic=cuartaseccion}
+
+	+ #
+	- Lo lamento. No cuento con esa sección.
+
+	+ [*] cambiar [*] seccion [*]
+	- Ok. ¿A cuál sección quieres cambiar?
 < topic

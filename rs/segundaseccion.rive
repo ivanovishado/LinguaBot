@@ -1,0 +1,859 @@
+> topic segundaseccion includes secciones
+
+	+ [los] pronombres [personales]
+	- Ok, existen 5 tipos de pronombres:\n
+	^ De SUJETO.\n
+	^ De ADJETIVO.\n
+	^ De OBJETO.\n
+	^ POSESIVOS.\n
+	^ REFLEXIVOS.\n
+	^ ¿Cuál de los tipos de pronombres te interesa repasar?
+
+	+ quiero cambiar de tema
+	- A cuál tema te quieres cambiar:\n
+	^ Los pronombres personales.\n
+	^ Los números cardinales y ordinales.\n
+	^ Formar plurales con los sustantivos.\n
+	^ Vocabulario:Presentaciones  y personas.\n
+
+	+ que otro tema puedo repasar
+	- Los temas que puede repasar son los siguinetes:\n
+	^ Los pronombres personales.\n
+	^ Los números cardinales y ordinales.\n
+	^ Formar plurales con los sustantivos.\n
+	^ Vocabulario: Presentaciones y personas.\n
+	^ ¿Cuál de los temas de la segunda sección te interesa repasar?
+
+	+ [*] cambiar [*] tema [*]
+	- {@ quiero cambiar de tema}
+
+	+ [el|de] sujeto
+	- Los pronombres de sujeto son:\n  {topic=desujeto}
+	^ I:Yo.\n
+	^ You:Tú,usted.\n
+	^ He:El.\n
+	^ She:Ella.\n
+	^ It:El,ella.\n
+	^ We:Nosotros.\n
+	^ You:Nosotros,ustedes.\n
+	^ They:Ellos,ellas.\n
+	^ ¿Quieres algunos ejemplos de sujeto?
+
+	+ [de] adjetivo
+	- Los pronombres de adjetivo son:\n {topic=deadjetivo}
+	^ My = Mi, mis.\n
+	^ Your = Tu,tus.\n
+	^ His = Su,sus (Masculino).\n
+	^ Her = Su,sus (Femenino).\n
+	^ Its = Su,sus.\n
+	^ Our = Nuestro/a,nuestras/os.\n
+	^ You = Vuestro/a,vuestras/os.\n
+	^ Their = Su,sus (de ellos).\n
+	^ ¿Quieres algunos ejemplos de adjetivo?
+
+	+ [de] objeto
+	- Los pronombres de objrto son:\n {topic=deobjeto}
+	^ Me = Me, mí.\n
+	^ You = Te,tu,tí,usted.\n
+	^ Him = El,le,lo.\n
+	^ It = Lo,la,ello,le.\n
+	^ Us = Nosotros, no.\n
+	^ You = Vosotros,les,ustedes,os.\n
+	^ Them = Ellos,les,los,las.
+	^ ¿Quieres algunos ejemplos de objeto?
+
+	+ [los] posesivos
+	- Los pronombres posesivos son:\n {topic=posesivos}
+	^ Mine = Mío/s,mía/s.\n
+	^ Yours = Tuyo/s,tuya/s.\n
+	^ His = Suyo/s,suya/s (De él).\n
+	^ Hers = Suyo/s,suya/s (De ella).\n
+	^ Its = Suyo/s,suya/s.\n
+	^ Ours = Nuestro/s,nuestra/s.\n
+	^ Yours = Vuestro/s,vuestra/s.\n
+	^ Theirs = Suyo/a,suyos/as (De ellos).\n
+	^ ¿Quieres algunos ejemplos de posesivos?
+
+	+ [los] reflexivos
+	- Los pronombres reflexivos son:\n {topic=reflexivos}
+	^ Myself = Yo mismo,me.\n
+	^ Yourself = Tú mismo,te,se.\n
+	^ Himself = Él mismo,se.\n
+	^ Herself = Ella misma,se.\n
+	^ Itself = El mismo,se.\n
+	^ Ourselves = Nosotros mismos,nos.\n
+	^ Yourselves = Vosotros mismos,ustedes mismos,se.\n
+	^ Themselves = Ellos mismos,se.\n
+	^ Each other = El uno del otro,se.\n
+	^ ¿Quieres algunos ejemplos de reflexivos?
+
+ 	+ [los] numeros
+ 	- Hay dos tipos de numeros:\n
+ 	^ Los números Cardinales.\n
+ 	^ Los números Ordinales.\n
+ 	^ ¿Cuál de los tipos de números te interesa repasar?
+
+ 	+ [los] [numeros] cardinales
+	- Los numeros cardinales se usan para contar cosas. Corresponde al nombre del número exacto que queremos expresar, se refiere a la cantidad.\n {topic=cardinales}
+	^ ¿Cuáles quieres conocer primero?.\n
+	^ 1 al 12.\n
+	^ 13 al 19.\n
+	^ 20 al 90.\n
+	^ Formar decenas.\n
+	^ Formar centenas.\n
+	^ Unir centenas con docenas.\n
+	^ Millares.\n
+	^ Millones.\n
+
+
+	+ [los] [numeros] ordinales
+	- Los números ordinales son aquellos que indican la posición de algo en un orden o una lista. REcordemos que los números ordinarios son los que aparecen en los calendarios. {topic=ordinales}
+	^ ¿Cuáles quieres conocer primero?
+	^ Del primero al tercero.\n
+	^ Del cuarto al decimoavo.\n
+	^ Decenas,millares,millon.\n
+	^ Formar decenas.
+
+	+ [formar] plurales
+	- Muy bien empecemos por definir Pluray y sustantivo:\n
+	^ Plural: Presencia de más de un elemento.\n
+	^ Singular: es un elemento.\n
+	^ ¿Que tipo de singular te interesa repasar primero?
+
+	+ plural
+	- Claro para crear un sustantivo en plural se le añaden algunas termiacines como por ejemplo:\n {topic=plural}
+	^ S.\n
+	^ Es.\n
+	^ Ies.\n
+	^ Ves.\n
+	^ ¿Quieres ver como se usan las terminaciones anteriores?
+
+	+ singular
+	- En el singular existen 2 Casos:\n {topic=singular}
+	^ Caso 1: Cuándo el singular y plural no cambian.\n
+	^ Caso 2: Cuándo el plural varía de modo irregular.\n
+	^ ¿Qué caso te gustaria conocer primero?.\n
+
+
+	+ vocabulario
+	- Dentro del vocabulario tenemos 2 temas:\n
+	^ Presentaciones.\n
+	^ Personas.\n
+	^ ¿Que tipo de vocabulario quieres repasar primero?
+
+	+ presentaciones
+	- Dentro de presentaciones se encuentran las siguientes:n {topic=presentaciones}
+	^ Saludos.\n
+	^ Despedidas.\n
+	^ Nuevas Presentaciones.\n
+	^ ¿Cuál quieres aprender primero?
+
+	+ personas
+	- Acontinuación se te presentaran una serie de personas:\n
+	^ Adolescent = adolescente.\n
+	^ Adult = adulto.\n
+	^ Baby = bebé.\n
+	^ Boy = chico.\n
+	^ Chap = tío.\n
+	^ Child = niño/a.\n
+	^ Fellow = colega.\n
+	^ Gentleman = señor,caballero.\n
+	^ Girl = chica.\n
+	^ Grown-up = adulto.\n
+	^ Individual = individuo.\n
+	^ Lady = señora.\n
+	^ Man = hombre.\n
+	^ Middle-aged = de mediana edad.\n
+	^ Old = viejo.\n
+	^ People = gente.\n
+	^ Person = persona.\n
+	^ Teenager = adolescente.\n
+	^ Toddler = niño que empieza a andar.\n
+	^ Woman = mujer.\n
+	^ Young = joven.\n
+	^ Youth = adolecente.\n
+	^ ¿Quieres repasar otro tema?
+
+	+ @no
+	- OK. No te preocupes. Puedes repasar otros temas..\n{@ que otro tema puedo repasar}
+	- No pasa nada, puedes repasar otros temas..\n{@ que otro tema puedo repasar}
+	- Ok, espero que sigas repasando otros tema..\n{@ que otro tema puedo repasar}
+
+
+
+
+< topic
+
+> topic desujeto includes segundaseccion
+
+	+ @si
+	- Ok, ¿De cuál pronombre quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál pronombre quieres saber más?
+	- Claro, dime de cuál pronombre te interesan los ejemplos.
+
+	+ i
+	- I am ill = Yo estoy enfermo.\n
+	^ I am beautiful = Yo soy hermosa.\n
+	^ I am sad = Yo estoy triste.\n
+	^ I am happy = Yo estoy feliz.\n
+	^ I am confused = Yo estoy confundida.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ you
+	- You are happy = Tú estas feliz.\n
+	^ You are hungry = Tú estas hambriento.\n
+	^ You are reading = Tu estas leyendo.\n
+	^ You are worried = Tú estas preocupado.\n
+	^ You are sad = Tú estas triste.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ he
+	- He is sick = El esta enfermo.\n
+	^ He is traveling = El esta viajando.\n
+	^ He speaks English = El habla ingles.\n
+	^ He drives the car = El conduce el carro.\n
+	^ He is angry = El esta enojado.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ she
+	- She is beautiful = Ella es hermosa.\n
+	^ She is running = Ella esta corriendo.\n
+	^ She is eating soup = Ella esta comiendo sopa.\n
+	^ She went shopping = Ella fue de compras.\n
+	^ She is crying = Ella esta llorando.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ it
+	- It is big = Es grande.\n
+	^ It is huge = Es enorme.\n
+	^ It is annoying = Es molesto.\n
+	^ It is beautiful = Es hermoso.\n
+	^ It is hard = ES dificil.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ we
+	- We walk = Nosotros caminamos.\n
+	^ We talked = Nosotros conversamos.\n
+	^ We are studying = Nosotros estamos estudiando.\n
+	^ We went to the party = Nosotros fuimos a la fiesta.\n
+	^ We buy ice cream = Nosotros compramos helado.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ you
+	- You are cooking = Ustedes estan cocinando.\n
+	^ You traveled to paris = Ustedes viajaron a Paris.\n
+	^ You went to the park = Ustedes fueron al parque.\n
+	^ You do not have money = Ustedes no tienen dinero.\n
+	^ You drank milk = Ustedes tomaron leche.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ they
+	- They lost the bus = Ellos perdieron el autobus.\n
+	^ They sang a lot at the concert = Ellas cantaron mucho en el concierto.\n
+	^ They decided to travel = Ellos decidieron viajar.\n
+	^ They are going shopping = Ellas van de compras.\n
+	^ They went swimming = EElos fueron a nadar.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+< topic
+
+> topic deadjetivo includes segundaseccion
+
+	+ @si
+	- Ok, ¿De cuál pronombre de adjetivo quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál pronombre de adjetivo quieres saber más?
+	- Claro, dime de cuál pronombre de adjetivo te interesan los ejemplos.
+
+	+ my
+	- This is my bluse = Esta es mi blusa.\n
+	^ This is my book = Este es mi libro.\n
+	^ This is all my fault = Todo esto es mi culpa.\n
+	^ Will go by my own means = Asistiré por mis propios medios.\n
+	^ Have you seen my mum? = ¿Has visto a mi mamá?.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ your
+	- Your mother was ery upset = Tu madre estaba muy molesta.\n
+	^ Where did you put your trousers? = ¿En dónde pusiste tus pantalones?.\n
+	^ Are these your friends? = ¿Son estos tus amigos?.\n
+	^ Where is your house? = ¿Dónde esta tu casa?.\n
+	^ What is your problem? = ¿Cuál es tu problema?.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ his
+	- He has his own company = El tiene su propia empresa.\n
+	^ He does not find his keys = El no encuentra sus llaves.\n
+	^ Have you met his sister already? = ¿Has conocido a su hermana?.\n
+	^ He has his own problems = El tiene sus propios problemas.\n
+	^ He lost his money = El perdio su dinero.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ her
+	- Her boyfriend broke with her again = Su novio rompió con ella de nuevo.\n
+	^ Anna decided not to paint her hair again = Ana decidió no pintar su cabello de nuevo.\n
+	^ Are you going to meet her parents? = ¿Vas a conocer a sus padres?
+	^ She lost her job = Ella perdio su trabajo.\n
+	^ Maria and her sister went shopping = Maria y su hermana fueron de compras.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ its
+	- My dog wags its tail when he see me = Mi perro mueve la cola cuando me ve.\n
+	^ This car has a hole in its roof = Este auto tiene un agujero en su techo.\n
+	^ We are studying Japan and its culture = Estamos estudiando al Japón y su cultura.\n
+	^ New York is famous for its exciting nightlife = Nueva York es famosa por su excitante vida nocturna.\n
+	^ The government announced its goals for this year = El gobierno anunció sus metas para este año.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ our
+	- The Earth is our planet = La Tierra es nuestro planeta.\n
+	^ We cook our own meals = Cocinamos nuestras propias comidas.\n
+	^ We don't want to spend all our money = No queremos gastar todo nuestro dinero.\n
+	^ We live with our parents = Vivimos con nuestros padres.\n
+	^ We enjoy our math class = Nosotros disfrutamos nuestra clase de matemáticas.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ you
+	- You all love your country = Todos ustedes aman a su país.\n
+	^ You all have to make your own decisions = Ustedes tienen que tomar sus propias decisiones.\n
+	^ Your President is making a fool out of himself = Vuestro presidente está poniéndose en ridículo.\n
+	^ I want to thank you all for your help = Quiero agradecerles a todos ustedes por su ayuda.\n
+	^ You are my parents and I am your son = Ustedes son mis padres y yo soy su hijo.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ their
+	- Our neighbors are painting their house = Nuestros vecinos están pintando su casa.\n
+	^ Grandparents usually love their grandchildren = Los abuelos generalmente aman a sus nietos.\n
+	^ They bought their home last year = Ellos compraron su casa el año pasado.\n
+	^ I saw Sally and John with their children = Ví a Sally y John con sus hijos.\n
+	^ Most Americans love their cars = La mayoría de los norteamericanos aman a sus autos.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+< topic
+
+> topic deobjeto includes segundaseccion
+
+	+ @si
+	- Ok, ¿De cuál pronombre de objeto quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál pronombre de objeto quieres saber más?
+	- Claro, dime de cuál pronombre de objeto te interesan los ejemplos.
+
+	+ me
+	- I want it for me = Lo quiero para mí.\n
+	^ Dont bother me = No me molestes.\n
+	^ He knows me well = El me conoce bien.\n
+	^ She wrote me a lot of letters = Ella me escribió muchas cartas.\n
+	^ I need it for me = Lo necesito para mí.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ you
+	- I am helping you = Te estoy ayudando a tí.\n
+	^ I'm asking you for advice from friends = Te estoy pidiendo un consejo de amigos.\n
+	^ I buy you a juice = Te compre un jugo.\n
+	^ I lend you my notebook? = ¿Te preste mi libreta?.\n
+	^ I invite you to the party? = ¿Te invito a la fiesta?.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ him
+	- Can you see him? = Le puedes ver?.\n
+	^ She sit next to him = Ella se sienta junto a él.\n
+	^ This book belongs to him = Este libro le pertenece a él.\n
+	^ She gave him a car = Ella le regalo un carro.\n
+	^ His dad gave him a check = Su papá le dio un cheque.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ her
+	- She is pretty. I like her = Ella es bonita. Me gusta ella.\n
+	^ She is in her bedroom = Ella esta en su habitacion.\n
+	^ She needs her book = Ella necesita su libro.\n
+	^ She lost her dog = Ella perdio a su perro.\n
+	^ She was playing with her sister = Ella estaba jugando con su hermana.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ it
+	- Give it a kick = Dale un patada.\n
+	^ You need it now = Lo necesita ya.\n
+	^ Can not beat it = No lo puede superar.\n
+	^ It was not what I expected = NO era lo que esperaba.\n
+	^ It was to be expected = Era de suponerse.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ us
+	- He is helping us = El nos está ayudando.\n
+	^ They told us not to = Ellos nos dijeron que no.\n
+	^ He lost us in the cinema = El nos perdio en el cine.\n
+	^ They invited us to the party = Ellas nos invitaron a la fiesta.\n
+	^ She told us lies = Ella nos dijo mentiras.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ you
+	- I saw you = Les vi.\n
+	^ You do not need that = Ustedes no necesitan eso.\n
+	^ You lost the game = Ustedes perdieron el juego.\n
+	^ I do not need you = NO necesito de ustedes.\n
+	^ They could help you = Ellos podrian ayudarlos a ustedes.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ them
+	- I am waiting for them = Los estoy esperando.\n
+	^ They could help them = Ellos los podrian ayudar.\n
+	^ They bought them = Ellos los compraron.\n
+	^ They gave them the address = Ellos les dieron la direccion.\n
+	^ They decided to bring them thing = Ellos decidieron traer las cosas.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+< topic
+
+> topic posesivos includes segundaseccion
+
+	+ @si
+	- Ok, ¿De cuál pronombre posesivo quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál pronombre posesivo quieres saber más?
+	- Claro, dime de cuál pronombre posesivo te interesan los ejemplos.
+
+	+ mine
+	- This coat in mine = Este abrigo es mío.\n
+	^ That way of thinking is mine = Esa forma de pensar es mía.\n
+	^ That idea was mine = Esa idea era mía.\n
+	^ That credential is mine = Esa credencial es mía.\n
+	^ The juice on the table is mine = El jugo que esta en la mesa es mío.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ yours
+	- My name is Laura. What's yours? = Mi nombre es Laura. Cuál es el tuyo?.\n
+	^ Which of the two books is yours? = ¿Cuál de los dos libros es el tuyo?.\n
+	^ Is the bike yours? = ¿La bicicleta es tuya?.\n
+	^ The idea is not yours = La idea no es tuya.\n
+	^ Is that phone yours? = ¿Ese telefono es tuyo?.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ his
+	- This is his computer = Esta es su computadora.\n
+	^ That car is his = ¿Ese coche es suyo?.\
+	^ That's his problem = Ese es su problema.\n
+	^ That is his discomfort = Ese es su malestar
+	^ That is his dog = Ese es su perro.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ hers
+	- Hers bag is blue = Su bolso es azúl.\n
+	^ This toy is hers? = ¿Este juuete es tuyo?.\n
+	^ This umbrella is hers? = ¿Esta sombrilla es suya?
+	^ I have a key. She doesn’t have hers = Tengo una llave. No tiene la suya.\n
+	^ Those trousers are hers = Esos pantalones son suyos.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ its
+	- Its eyes are blue = Sus ojos son azules.\n
+	^ My neighbor's cat never stays in its own yard = El gato de mi vecina nunca se queda en su propio jardín.\n
+	^ That bottle of wine is cheap, but it has its plusses = Esa botella de vino es barata, pero tiene sus cosas positivas.\n
+	^ Google needs to update its privacy policy = Google necesita actualizar su política de privacidad.\n
+	^ My oak tree loses its leave in autumn = Mi árbol de roble pierde sus hojas en el otoño.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ ours
+	- Who does this book belong to? It’s ours = ¿A quién pertenece este libro? Es nuestro.\n
+	^ They have a key. We don’t have ours = Tienen una llave. No tenemos la nuestra.\n
+	^ I study English with a friend of ours = Estudio inglés con un amigo nuestro.\n
+	^ Those trousers are ours = Esos pantalones son nuestros.\n
+	^ Those ties are ours = Esas corbatas son nuestras.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ yours
+	- Who does this book belong to? It’s yours = ¿A quién pertenece este libro? Es vuestro.\n
+	^ I have a key. You don’t have yours = Tengo una llave. No tenéis la vuestra.\n
+	^ I study English with a friend of yours = Estudio inglés con un amigo vuestro.\n
+	^ Those trousers are yours = Esos pantalones son vuestros.\n
+	^ Those ties are yours = Esas corbatas son vuestras.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ theirs
+	- This is theirs = ESto es suyo.\n
+	^ The choice is theirs, and it is theirs alone = Es su decisión, y solo de ellos.\n
+	^ Theirs is a fate perennially suffered by intellectuals = El suyo es un destino perennemente padecido por los intelectuales.\n
+	^ In any case, I will tax my intelligence to direct theirs = En todo caso, yo me encargo de suplir su falta de inteligencia.\n
+	^ What business is it of theirs? = ¿Qué tienen que ver con esto?.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+< topic
+
+> topic reflexivos includes segundaseccion
+
+	+ @si
+	- Ok, ¿De cuál pronombre reflexivo quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál pronombre reflexivo quieres saber más?
+	- Claro, dime de cuál pronombre reflexivo te interesan los ejemplos.
+
+	+ myself
+	- I saw it for myself = Yo mismo lo vi.\n
+	^ I blame myself for that mistake = Me culpo yo mismo por ese error.\n
+	^ I myself send the package = Yo mismo envié el paquete.\n
+	^ I myself will cut the grass twice a week = Yo mismo cortaré el césped dos veces por semana.\n
+	^ I went on vacation by myself = Fui de vacaciones solo.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ yourself
+	- Don't burn yourself ! = No te quemes!.\n
+	^ You will hurt yourself if you are not careful enough = Tú te lastimarás si no eres cuidadoso.\n
+	^ You yourself will be responsible for the debt = Tú mismo serás responsable de la deuda.\n
+	^ If you want wine, help yourselves please = Si quieren vino, sírvanse ustedes mismos por favor.\n
+	^ You can find out yourself = Puedes averiguar todo tú mismo.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ himself
+	- He hurt himself = Se hizo daño.\n
+	^ He cuts himself when he shaves = Él mismo se corta cuando se afeita.\n
+	^ My son is old enough to dress himself = Mi hijo tiene la edad suficiente para vestirse por él mismo.\n
+	^ The soldier shot himself by accident = El soldado se disparó él mismo por accidente.\n
+	^ He himself must talk with her = Él mismo debe hablar con ella.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ herself
+	- She did it herself = Lo hizo ella misma.\n
+	^ She burned herself =Ella se quemó a sí misma.\n
+	^ She cut herself with the same knife = Ella misma se cortó con el mismo cuchillo.\n
+	^ She hasn’t been herself lately = No ha sido ella misma últimamente.\n
+	^ She herself docorated her bedroom = Ella misma decoró su habitación.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ itself
+	- The cat scratched itself = El gato se arañó.\n
+	^ The cat hurt itself when it jumped over the fence = El gato se lastimó él mismo cuando salto sobre la cerca.\n
+	^ The duck threw itself into the water = El pato se arrojó al agua.\n
+	^ The battery recharges itself = La batería se recarga a sí misma.\n
+	^ The proposal itself surprised everybody in the room = La propuesta misma sorprendió a todos en el recinto.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ ourselves
+	- We are enjoying ourselves = Estamos disfrutando nosotros mismos.\n
+	^ We ourselves will lend you the money = Nosotros mismos te prestaremos el dinero.\n
+	^ We can finish this work by ourselves = Nosotros podemos terminar este trabajo solos.\n
+	^ We did it ourselves = Lo hicimos nosotros mismos.\n
+	^ We can finish the project ourselves = Podemos terminar el proyecto nosotros mismos.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ yourselves
+	- Did you paint the house yourselves? = Pintásteis la casa vosotros mismos?.\n
+	^ Did you make the plan yourselves? = ¿Hicieron el plan ustedes mismos?.\n
+	^ You all can consider yourselves lucky to be here = Todos ustedes pueden considerarse afortunados de estar aquí.\n
+	^ Girls, don't limit yourselves = Chicas, no se limiten.\n
+	^ As you yourselves can see, this has been very easy = Como ustedes mismos pueden ver, esto ha sido muy fácil.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+
+	+ themselves
+	- They are laughing at themselves = Ellos se están riendo.\n
+	^ My sisters like to look at themselves in the mirror = A mis hermanas les gusta verse ellas mismas en el espejo.\n
+	^ They themselves made an offer to buy the car = Ellos mismos hicieron una oferta para comprar el automóvil.\n
+	^ The kids got dressed by themselves = Los niños se vistieron por sí mismos.\n
+	^ They enjoyed themselves at the party = Se divirtieron en la fiesta.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+	+ each other
+	- They hate each other = Ellos se odian.\n
+	^ We love each other = Nos amamos (mutuamente).\n
+	^ Jane and John see each other = Jane y John se ven (mutuamente).\n
+	^ We promised to love each other for ever = Nosotros prometimos amarnos para siempre.\n
+	^ We hated one another, but now we are good friends = Nos odiábamos, pero ahora somos buenos amigos.\n
+	^ ¿Quieres ejemplos de algún otro pronombre?
+
+< topic
+
+> topic cardinales includes segundaseccion
+
+	+ [del] 1 al 12
+	- Los números del 1 al 12 son los siguentes:\n
+	^ 1 = One.\n
+	^ 2 = Two.\n
+	^ 3 = Three.\n
+	^ 4 = Four.\n
+	^ 5 = Five.\n
+	^ 6 = Six.\n
+	^ 7 = Seven.\n
+	^ 8 = Eight.\n
+	^ 9 = Nine.\n
+	^ 10 = Ten.\n
+	^ 11 = Eleven.\n
+	^ 12 = Twelve.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ @si
+	- Ok,¿De cuál al cuál número quieres seguir repasando?.
+	- Perfecto,dime de cuáĺ a cuál quieres repasar.
+	- Muy bien, ¿Cuáles son los números que quieres repasar?.
+	- Claro, dime cuáles son los números que te interesa repasar.
+
+	+ [del] 13 al 19
+	- Claro con gusto… Empecemos del 13 al 19 tienen la terminación -een (la terminación suena como tin):\n
+	^ 13 = Thirteen.\n
+    ^ 14 = Fourteen.\n
+ 	^ 15 = Fifteen.\n
+ 	^ 16 = Sixteen.\n
+ 	^ 17 = Seventeen.\n
+ 	^ 18 = Eighteen.\n
+	^ 19 = Nineteen.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ [del] 20 al 90
+	- Claro con gusto.. Empecemos del 20 al 90 tienen la terminación -ty ( la terminación suena como ti):\n
+	^ 20 = Twenty.\n
+	^ 30 = Thirty.\n
+	^ 40 = Forty.\n
+	^ 50 = Fifty.\n
+	^ 60 = Sixty.\n
+	^ 70 = Seventy.\n
+	^ 80 = Eighty.\n
+	^ 90 = Ninety.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ [formar][las] decenas
+	- Para formar las decenas se añade un guión después de la decenas y el número:\n
+	^ EJEMPLOS:\n
+	^ 21 = Twenty-One.\n
+	^ 22 = Twenty-Two.\n
+	^ 23 = Twenty-Three.\n
+	^ 41 = Forty-One.\n
+	^ 52 = Fifty-Two.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ [formar][las] centenas
+	- Para las centenas se le agrega la palabra hundred al numero del 1 al 9:\n
+	^ EJEMPLOS:\n
+	^ One hundred = 100.\n
+	^ Two hundred = 200.\n
+	^ Three hundred = 300.\n
+	^ Four hundred = 400.\n
+	^ Five hundred = 500.\n
+	^ Six hundred = 600.\n
+	^ Seven hundred = 700.\n
+	^ Eight hundred = 800.\n
+	^ Nine hundred = 900.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ [unir] centenas con docenas
+	- Para unir las centenas con las decenas se le añadirá and:\n
+	^ EJEMPLOS:\n
+	^ Two hundred and fifty-five = 255.\n
+	^ Three hundred and twenty-three = 323.\n
+	^ Five hundred and forty-nine = 549.\n
+	^ Seven hundred and twenty-two = 722.\n
+	^ Eight hundred and eighty-eight = 888.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ millares
+	- Para los millares se le agrega la palabra thousand al número.\n
+	^ EJEMPLOS:\
+	^ One thousand = 1000.\n
+	^ Two thousand = 2000.\n
+	^ Three thousand = 3000.\n
+	^ Four thousand = 4000.\n
+	^ Five thousand = 5000.\n
+	^ Six thousand = 6000.\n
+	^ Seven thousand = 7000.\n
+	^ Eight thousand = 8000.\n
+	^ Nine thousand = 9000.\n
+	^ Ten thousand = 10000.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ millones
+	- Para los millones se le agrega la palabra million al número:\n
+	^ EJEMPLOS:\n
+	^ One million = 1 millón.\n
+	^ Two million = 2 millónes.\n
+	^ Three million = 3 millónes.\n
+	^ Four million = 4 millónes.\n
+	^ Five million = 5 millónes.\n
+	^ Six million = 6 millónes.\n
+	^ Seven million = 7 millónes.\n
+	^ Eight million = 8 millónes.\n
+	^ Nine million = 9 millónes.\n
+	^ Ten million= 10 millónes.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+< topic
+
+> topic ordinales includes segundaseccion
+
+	+ [del] primero al tercero
+	- Primero, segundo y tercero son así:\n
+	^ 1st first = Primero. 1ro. La terminación del primero será st.\n
+	^ 2nd second = Segundo. 2do. La terminación del segundo será nd.\n
+	^ 3rd third = Tercero. 3ro. La terminación del tercero será rd.\n
+	^ ¿Quieres seguir consultando los otros números?
+
+	+ @si
+	- Ok,¿De cuál al cuál número quieres seguir repasando?.
+	- Perfecto,dime de cuáĺ a cuál quieres repasar.
+	- Muy bien, ¿Cuáles son los números que quieres repasar?.
+	- Claro, dime cuáles son los números que te interesa repasar.
+
+	+ [del] cuarto al decimoavo
+	- Del cuarto al decimoavo tienen la terminación -th:\n
+	^ 4th fourth.\n
+	^ 5th fifth.\n
+	^ 6th sixth.\n
+	^ 7th seventh.\n
+	^ 8th eighth.\n
+	^ 9th ninth.\n
+	^ 10th tenth.\n
+	^ 11th eleventh.\n
+	^ 12th twelfth.\n
+	^ 13th thirteenth.\n
+	^ 14th fourteenth.\n
+ 	^ 15th fifteenth.\n
+  	^ 16th sixteenth.\n
+  	^ etc...etc...
+  	^ ¿Quieres seguir consultando los otros números?
+
+  	+ [docenas][millares][millon]
+  	- Las decenas, millares y el millón también tienen la terminación -th: La terminación suena como (tiez).\n
+  	^ 20th twentieth.\n
+  	^ 30th thirtieth.\n
+  	^ 40th fortieth.\n
+  	^ 80th eightieth.\n
+  	^ 100th hundredth.\n
+  	^ 1000 thousandth.\n
+  	^ 1.000.000th millionth.\n
+  	^ etc...etc...
+  	^ ¿Quieres seguir consultando los otros números?
+
+  	+ [formar] decenas
+  	-Para formar las decenas, al igual que los cardinales, pero la terminación -th la tienen las unidades, las decenas entonces se escribirán como los cardinales.\n
+  	^ EJEMPLO:\n
+  	^ 21st twenty-first.\n
+  	^ 22nd twenty-second.\n
+  	^ 23rd twenty-third.\n
+  	^ 24th twenty-fourth.\n
+  	^ etc...etc...
+  	^ ¿Quieres seguir consultando los otros números?
+
+< topic
+
+> topic plural includes segundaseccion
+
+	+ @si
+	- Ok,¿De cuál letra quieres ver su uso?.
+	- Perfecto,dime de cúal termianción quieres saber su uso.
+	- Muy bien, ¿De cuál terminación te interesa saber su uso?.
+	- Claro, dime de cuál termiación te ineteresa aprender su uso.
+
+	+ s
+	- A la mayoria de nombres se les agrega una s final para formar el plural.\n
+	^ Ejemplos:\n
+	^ Camera = Cameras ... Camara = Camaras.\n
+	^ Pen = Pens.... Bolígrafo = Bolígrafos.\n
+ 	^ Cup = Cups... Taza = Tazas.\n
+	^ Car = Cars... Carro = Carros.\n
+	^ Book = Books... Libro = Libros.\n
+	^ ¿De cuál otra terminación te interesa saber su uso?
+
+	+ es
+	- Para formar el plural a los nombres acabados en -ch, -sh, -s, o -x, se les añade -es.\n
+	^ EJEMPLOS:\n
+	^ Glass = Glasses... Lente = Lentes.\n
+	^ Watch = Watches... Reloj = Relojes.\n
+	^ Brush = Brushes... Cepillo = Cepillos.\n
+	^ Bus = Buses... Autobús = Autobuses.\n
+	^ Box = Boxes... Caja = Cajas
+	^ ¿De cuál otra terminación te interesa saber su uso?
+
+	+ ies
+	- Para formar el plural a los nombres acabos en -y se elimina la letra y y se añade la terminación -ies.\n
+	^ EJEMPLOS:\n
+	^ Baby = Babies.... Bebé = Bebes.\n
+	^ Factory = Factories... Fabrica = Fabricas.\n
+	^ Lady = Ladies... Señora = Señoras.\n
+	^ City = Cities... Ciudad = Ciudades.\n
+	^ Country = Countries... País = Países.\n
+	^ ¿De cuál otra terminación te interesa saber su uso?
+
+	+ ves
+	- Para los acabados en -f o -fe se elimina la -f o -fe y se añade -ves.\n
+	^ EJEMPLOS:\n
+	^ knife = Knives... Cuchillo = Cuchillos.\n
+	^ Leaf = Leaves... Hoja = Hojas.\n
+	^ Life = Lives... Vida = Vidas.\n
+	^ Shelf = Shelves... Estantería = Estanterías.\n
+	^ Thief = Thieves... Ladrón = Ladrones.\n
+	^ ¿De cuál otra terminación te interesa saber su uso?
+
+< topic
+
+> topic singular includes segundaseccion
+
+	+ caso 1 [uno]
+	- Cuando el singular y plural no cambian.\n
+	^ EJEMPLOS:\n
+	^ Fish (pez o pescado) singular.\n
+	^ Fish (peces o pescados) plural.\n
+	^ Sheep (oveja) singular.\n
+	^ Sheep (ovejas) plura.\n
+	^ Species (especie - especies) singular.\n
+	^ Species (especie - especies) plural.\n
+	^ ¿Quieres conocer el caso 2?
+
+	+ @si
+	- Ok.. Veamos el siguente caso.
+	- Perfecto... Chequemos el siguente caso.
+	- Ok... repasemos el siguente caso.
+
+	+ caso 2 [dos]
+	- Cuando el plural varía de modo irregular. Por lo tanto, no existe regla la cual se pueda seguir y hay que aprenderse las formas irregulares de cada uno.\n
+	^ EJEMPLOS:\n
+	^ Child = Children (niño - niños).\n
+	^ Foot = Feet (píe - pies).\n
+	^ Man = Men (hombre - hombres).\n
+	^ Mouse = Mice (ratón - ratones).\n
+	^ Tooth = Teeth (diente - dientes).\n
+	^ Woman = Women (mujer - mujeres).\n
+	^ ¿Quieres conocer el caso 1?
+
+< topic
+
+> topic presentaciones includes segundaseccion
+
+	+ saludos
+	- Muy bien empecemos con los saludos:\n
+	^ Good morning = Buenos días.\n
+	^ Good afternoon = Buenas tardes.\n
+	^ Good evening = Buenas noches.\n
+	^ Good night = Buenas noches.\n
+	^ ¿Quieres conocer las despedidas y las nuevas presentaciones?
+
+	+ @si
+	- ok..¿Que quieres conocer primero?
+	- ¿Qe te interesa aprender primero?
+	- Bien dime por donde quieres continuar?
+
+	+ despedidas
+	- Muy bien empecemos cos las despedidas:\n
+	^ Bye, Good bye = ¡Adios!.\n
+	^ See you later! = ¡Hasta luego!.\n
+	^ See you (soon)! = ¡Hasta pronto!.\n
+	^ See you tomorrow! = ¡Hasta mañana!.\n
+	^ ¿Quieres conocer los saludos y las nuevas presentaciones?.\n
+
+	+ nuevas presentaciones
+	- Muy bien empecemos con las nueva spresentaciones:\n
+	^ How are you? = ¿Cómo estás?\n
+	^ How are things? = ¿Qué tal?\n
+	^ How are you getting on? = ¿Qué tal?\n
+	^ What do you do? = ¿A qué te dedicas?\n
+	^ What's your name? = ¿Cómo te llamas?\n
+	^ May I introduce myself? = ¿Puedo presentarme?\n
+	^ I'd like you to meet... = Quisiera que conociese a...\n
+	^ Let me introduce you to ... = Le presento a...\n
+	^ Nice / pleased to meet you. = Encantado, Mucho gusto.\n
+	^ How do you do? = ¡Mucho gusto! / Cómo les va?\n
+	^ Give them my kindest regards. = Salúdalos en mi nombre.\n
+	^ All the best! = ¡buena suerte!\n
+	^ ¿Quieres conocer los saludos y las despedidas?
+
+< topic

@@ -1,30 +1,32 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 from __future__ import print_function
 
-import aiml
+from rivescript import RiveScript
+from rivescript_redis import RedisSessionManager
 import sys
 import argparse
+import random
 
 # Función principal (interfaz con línea de comandos)
 if __name__ == '__main__':
-    p = argparse.ArgumentParser("commandline")
-    p.add_argument("AIML",type=str,
-            action="store",
-            help="AIML file with rules [aiml/mibot.aiml]")
+    p = argparse.ArgumentParser("Pruebas con RiveScript en modo consola")
+    p.add_argument("--rs", type=str, default="./rs", action="store",
+                   help="RiveScript directory with rule files [./rs]")
 
     opts = p.parse_args()
 
-    k=aiml.Kernel()
+    # The RiveScript constructor is the public interface to
+    # the RiveScript interpreter.
+    bot = RiveScript(session_manager=RedisSessionManager())
 
-    # The Kernel object is the public interface to
-    # the AIML interpreter.
-    k = aiml.Kernel()
-
-    # Use the 'learn' method to load the contents
-    # of an AIML file into the Kernel.
-    k.learn(opts.AIML)
+    # Use the 'load_directory' method to load the contents
+    # of an RiveScript dir into the Kernel.
+    bot.load_directory(opts.rs)
+    bot.sort_replies()
 
     # Loop forever, reading user input from the command
     # line and printing responses.
-    while True: print(k.respond(raw_input("> ")))
+    while True:
+        print(bot.reply(str(None), input("> ")))
