@@ -13,11 +13,6 @@
 - Lo lamento mucho.\n
 ^ ¡Repasemos inglés para levantar esos ánimos!\n{@ quiero repasar ingles}
 
-+ [*] @saludos [*]
-- Hola, soy LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
-- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
-- Qué tal, me llamo LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
-
 + *
 - Perdón, pero no comprendí lo que acabas de decir.
 - Lo siento, no entendí que dijiste.
@@ -25,13 +20,16 @@
 
 > topic global
 	+ [*] @saludos [*]
-	- Hola, soy LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
-	- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
-	- Qué tal, me llamo LinguaBot+. ¡Repasemos inglés!\n{topic=random}{@ quiero repasar ingles}
+	- Hola, soy LinguaBot+. ¡Repasemos inglés!\n{@ quiero repasar ingles}
+	- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+. ¡Repasemos inglés!\n{@ quiero repasar ingles}
+	- Qué tal, me llamo LinguaBot+. ¡Repasemos inglés!\n{@ quiero repasar ingles}
 
 	+ como estas
 	- Vaya, nadie me pregunta eso. ¡Bien, gracias!
 	- ¡Muy bien, gracias por preguntar!
+
+	+ cual es el significado de la vida
+	- 42
 
 	+ (como me llamo|cual es mi nombre)
 	* <get nombre> == undefined => No me has dicho tu nombre.
@@ -78,7 +76,11 @@
 
 > topic secciones includes global
 	+ [*] (primera [seccion]|[seccion] 1) [*]
-	- Estos son los temas de la primera sección.{topic=primeraseccion}
+	- Estos son los temas de la primera sección.\n{topic=primeraseccion}
+	^ 1. ARTÍCULOS DETERMINADOS.\n
+	^ 2. ARTÍCULOS INDETERMINADOS.\n
+	^ 3. PREPOSICIONES.\n
+	^ 4. COLORES.
 
 	+ [*] (segunda [seccion]|[seccion] 2) [*]
 	- Ok, dentro de la segunda sección tengo los siguientes temas:\n{topic=segundaseccion}
@@ -99,9 +101,6 @@
 	+ [*] (cuarta [seccion]|[seccion] 4) [*]
 	- Esa sección no está disponible por el momento. Disculpa las molestias.{topic=cuartaseccion}
 
-	+ #
-	- Lo lamento. No cuento con esa sección.
-
 	+ [*] cambiar [*] seccion [*]
-	- Ok. ¿A cuál sección quieres cambiar?
+	- Ok. ¿A cuál de las secciones deseas cambiarte?
 < topic

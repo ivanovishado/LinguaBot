@@ -9,23 +9,21 @@
 	^ REFLEXIVOS.\n
 	^ ¿Cuál de los tipos de pronombres te interesa repasar?
 
-	+ quiero cambiar de tema
-	- A cuál tema te quieres cambiar:\n
-	^ Los pronombres personales.\n
+	+ temas de la segunda seccion
+	- ¿Cuál de los temas de la segunda sección te interesa repasar?\n
+	^ Los pronombres personales.\n{topic=segundaseccion}
 	^ Los números cardinales y ordinales.\n
 	^ Formar plurales con los sustantivos.\n
 	^ Vocabulario:Presentaciones  y personas.\n
 
+	+ quiero cambiar de tema
+	- {@ temas de la segunda seccion}
+
 	+ que otro tema puedo repasar
-	- Los temas que puede repasar son los siguinetes:\n
-	^ Los pronombres personales.\n
-	^ Los números cardinales y ordinales.\n
-	^ Formar plurales con los sustantivos.\n
-	^ Vocabulario: Presentaciones y personas.\n
-	^ ¿Cuál de los temas de la segunda sección te interesa repasar?
+	- {@ temas de la segunda seccion}
 
 	+ [*] cambiar [*] tema [*]
-	- {@ quiero cambiar de tema}
+	- {@ temas de la segunda seecion}
 
 	+ [el|de] sujeto
 	- Los pronombres de sujeto son:\n  {topic=desujeto}
@@ -52,7 +50,7 @@
 	^ ¿Quieres algunos ejemplos de adjetivo?
 
 	+ [de] objeto
-	- Los pronombres de objrto son:\n {topic=deobjeto}
+	- Los pronombres de objeto son:\n {topic=deobjeto}
 	^ Me = Me, mí.\n
 	^ You = Te,tu,tí,usted.\n
 	^ Him = El,le,lo.\n
@@ -87,15 +85,9 @@
 	^ Each other = El uno del otro,se.\n
 	^ ¿Quieres algunos ejemplos de reflexivos?
 
- 	+ [los] numeros
- 	- Hay dos tipos de numeros:\n
- 	^ Los números Cardinales.\n
- 	^ Los números Ordinales.\n
- 	^ ¿Cuál de los tipos de números te interesa repasar?
-
  	+ [los] [numeros] cardinales
-	- Los numeros cardinales se usan para contar cosas. Corresponde al nombre del número exacto que queremos expresar, se refiere a la cantidad.\n {topic=cardinales}
-	^ ¿Cuáles quieres conocer primero?.\n
+	- Los números cardinales se usan para contar cosas. Corresponde al nombre del número exacto que queremos expresar, se refiere a la cantidad.\n {topic=cardinales}
+	^ Ok, ¿de cuál a cuál de los números cardinales quieres repasar?\n
 	^ 1 al 12.\n
 	^ 13 al 19.\n
 	^ 20 al 90.\n
@@ -105,23 +97,22 @@
 	^ Millares.\n
 	^ Millones.\n
 
-
 	+ [los] [numeros] ordinales
-	- Los números ordinales son aquellos que indican la posición de algo en un orden o una lista. REcordemos que los números ordinarios son los que aparecen en los calendarios. {topic=ordinales}
-	^ ¿Cuáles quieres conocer primero?
+	- Los números ordinales son aquellos que indican la posición de algo en un orden o una lista.\nRecordemos que los números ordinarios son los que aparecen en los calendarios.\n{topic=ordinales}
+	^ Perfecto, dime de cuáĺ a cuál de los números ordinales quieres repasar.\n
 	^ Del primero al tercero.\n
 	^ Del cuarto al decimoavo.\n
 	^ Decenas,millares,millon.\n
 	^ Formar decenas.
 
 	+ [formar] plurales
-	- Muy bien empecemos por definir Pluray y sustantivo:\n
+	- Muy bien empecemos por definir plurales y sustantivo:\n
 	^ Plural: Presencia de más de un elemento.\n
 	^ Singular: es un elemento.\n
-	^ ¿Que tipo de singular te interesa repasar primero?
+	^ ¿Que tipo de sustantivo te interesa repasar primero?
 
 	+ plural
-	- Claro para crear un sustantivo en plural se le añaden algunas termiacines como por ejemplo:\n {topic=plural}
+	- Claro para crear un sustantivo en plural se le añaden algunas terminaciones como por ejemplo:\n {topic=plural}
 	^ S.\n
 	^ Es.\n
 	^ Ies.\n
@@ -134,7 +125,6 @@
 	^ Caso 2: Cuándo el plural varía de modo irregular.\n
 	^ ¿Qué caso te gustaria conocer primero?.\n
 
-
 	+ vocabulario
 	- Dentro del vocabulario tenemos 2 temas:\n
 	^ Presentaciones.\n
@@ -142,7 +132,7 @@
 	^ ¿Que tipo de vocabulario quieres repasar primero?
 
 	+ presentaciones
-	- Dentro de presentaciones se encuentran las siguientes:n {topic=presentaciones}
+	- Dentro de presentaciones se encuentran las siguientes:\n {topic=presentaciones}
 	^ Saludos.\n
 	^ Despedidas.\n
 	^ Nuevas Presentaciones.\n
@@ -178,10 +168,6 @@
 	- OK. No te preocupes. Puedes repasar otros temas..\n{@ que otro tema puedo repasar}
 	- No pasa nada, puedes repasar otros temas..\n{@ que otro tema puedo repasar}
 	- Ok, espero que sigas repasando otros tema..\n{@ que otro tema puedo repasar}
-
-
-
-
 < topic
 
 > topic desujeto includes segundaseccion
@@ -360,7 +346,6 @@
 	^ She gave him a car = Ella le regalo un carro.\n
 	^ His dad gave him a check = Su papá le dio un cheque.\n
 	^ ¿Quieres ejemplos de algún otro pronombre?
-
 
 	+ her
 	- She is pretty. I like her = Ella es bonita. Me gusta ella.\n
@@ -585,10 +570,8 @@
 	^ ¿Quieres seguir consultando los otros números?
 
 	+ @si
-	- Ok,¿De cuál al cuál número quieres seguir repasando?.
-	- Perfecto,dime de cuáĺ a cuál quieres repasar.
-	- Muy bien, ¿Cuáles son los números que quieres repasar?.
-	- Claro, dime cuáles son los números que te interesa repasar.
+	- Ok, ¿de cuál a cuál de los números cardinales quieres repasar?
+	- Perfecto, dime de cuáĺ a cuál de los números cardinales quieres repasar.
 
 	+ [del] 13 al 19
 	- Claro con gusto… Empecemos del 13 al 19 tienen la terminación -een (la terminación suena como tin):\n
@@ -689,10 +672,8 @@
 	^ ¿Quieres seguir consultando los otros números?
 
 	+ @si
-	- Ok,¿De cuál al cuál número quieres seguir repasando?.
-	- Perfecto,dime de cuáĺ a cuál quieres repasar.
-	- Muy bien, ¿Cuáles son los números que quieres repasar?.
-	- Claro, dime cuáles son los números que te interesa repasar.
+	- Ok, ¿de cuál a cuál de los números ordinales te interesa repasar?
+	- Perfecto, dime de cuáĺ a cuál de los números ordinales quieres repasar.
 
 	+ [del] cuarto al decimoavo
 	- Del cuarto al decimoavo tienen la terminación -th:\n
@@ -742,7 +723,7 @@
 	- Ok,¿De cuál letra quieres ver su uso?.
 	- Perfecto,dime de cúal termianción quieres saber su uso.
 	- Muy bien, ¿De cuál terminación te interesa saber su uso?.
-	- Claro, dime de cuál termiación te ineteresa aprender su uso.
+	- Claro, dime de cuál terminación te ineteresa aprender su uso.
 
 	+ s
 	- A la mayoria de nombres se les agrega una s final para formar el plural.\n
@@ -841,7 +822,7 @@
 	^ ¿Quieres conocer los saludos y las nuevas presentaciones?.\n
 
 	+ nuevas presentaciones
-	- Muy bien empecemos con las nueva spresentaciones:\n
+	- Muy bien empecemos con las nuevas presentaciones:\n
 	^ How are you? = ¿Cómo estás?\n
 	^ How are things? = ¿Qué tal?\n
 	^ How are you getting on? = ¿Qué tal?\n

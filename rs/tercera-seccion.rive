@@ -1,195 +1,617 @@
 > topic terceraseccion includes secciones
 
     + [el]verbo to be
-    - Hola Se utiliza tanto como un verbo principal como un verbo auxiliar y es irregular en el presente y el pasado Sujeto+presentesimple.\n
-    ^ Puedes checar algunos ejemplos del verbo to be Afirmativo Negativo Interrogativo.\n
+     - Existen tres tipos de verbo to be:\n
+     ^ verbo to be AFIRMATIVO\n
+     ^ verbo to be NEGATIVO\n
+     ^ verbo to be INTERROGATIVO\n
+     ^ ¿Cual des estos te interesa repasar?
 
-    +[los]ejemplos del verbo to be
-    - Estos son algunos ejemplos del verbo to be AFIRMATIVO.\n
-    ^ I’m - yo soy/estoy.\n
-    ^ you’re - tú eres/estás.\n
-    ^ he’s - él es/están.\n
-    ^ it’s - es/está.\n
-    ^ we’re - nosotros somos/estamos\n
-    ^ they’re - ellos son/están.\n\n
-    ^ Estos son algunos ejemplos del verbo to be NEGATIVO.\n
-    ^ I’m not - yo no soy/estoy.\n
-    ^ you’re not - tú no eres/estás.\
-    ^ it’s not - no es/está.\n n
-    ^ he’s not - él no es/están.\n
-    ^ we’re not - nosotros no somos/estamos\n
-    ^ they’re not:ellos no son/están.\n\n
-    ^ Estos son algunos ejemplos del verbo to be INTERROGATIVO.\n
-    ^ Am I? - ¿Yo soy/estoy?\n
+    +[el]verbo to have
+    - las oraciones con su significado:\n
+    ^ verbo to have tener\n
+    ^ verbo to have haber.\n
+    ^ ¿Cual de estos te interesa repasar?
+
+    +[el]verbo to do
+    - verbo "Hacer" existen dos tipos:\n
+    ^ Verbo to do Presente simple\n
+    ^ Verbo to do Pasado simplen\n
+    ^ ¿Cual deseas repasar?
+
+    +[el]vocabulario familiar
+    -Repasa cada miembro de la familia en inglés\n {topic=vocabulariofamiliar}
+    ^ escribe VOCABULARIO FAMILIAR por favor.
+
+    +[las]formas cortas
+    -Estas son las formas cortas en inglés\n {topic=formascortas}
+    ^ escribe FORMAS CORTAS por favor.
+
+    +[el|de] verbo to be afirmativo
+    - i am - yo soy/estoy.\n {topic=verbotobeafirmativo}
+    ^ you are - tú eres/estás.\n
+    ^ he is - él es/están.\n
+    ^ it is - es/está.\n
+    ^ we are - nosotros somos/estamos\n
+    ^ they are - ellos son/están.\n
+    ^ Revisa los ejemplos de estos pronombres afirmativos\n
+
+    +[el|de] verbo to be negativo
+    -I am not - yo no soy/estoy.\n {topic=verbotobenegativo}
+    ^ you are not - tú no eres/estás.\n
+    ^ it is not - no es/está.\n
+    ^ he is not - él no es/están.\n
+    ^ we are not - nosotros no somos/estamos\n
+    ^ they are not:ellos no son/están.\n
+    ^ Revisa los ejemplos de negativo\n
+
+    +[el|de] verbo to be interrogativo
+    -Am I? - ¿Yo soy/estoy?\n {topic=verbotobeinterrogativo}
     ^ Are you? - ¿Tu eres/estás?\n
     ^ Is he? - ¿El es/está?\n
     ^ Is she? - ¿Ella es/está?\n
     ^ Is it? - ¿Es/está?\n
     ^ Are we? - ¿Nosotros somos/estamos?\n
     ^ Are they? - ¿Ellos son/están?\n
-    ^ ¿Gustas saber algun otro tema de la tercera seccion o ir a otra seccion?\n
+    ^ Revisa los ejemplos de interrogativo\n
 
+    +[el|de]verbo to have tener{topic=verbotohavetener}
+    -I have - Yo tengo\n
+    ^You have - Tú tienes\n
+    ^He has - Él tiene\n
+    ^She has - Ella tiene\n
+    ^We have - Nosotros tenemos\n
+    ^You have - Ustedes tienen\n
+    ^They have - Ellos tienen\n
 
-    + @si
-    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
-	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
-	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    +[el|de]verbo to habe haber{topic=verbotohavehaber}
+    -I had - Yo tuve
+    ^You had - Tu tenias
+    ^He had - Él tuvo
+    ^She had - Ella tenía
+    ^We had - Tuvimos
+    ^You had - Tu tenias
+    ^They had - Tuvieron
 
-    + @no
-    - Perfecto que pases un exelente día vuelve pronto.\n
-    - Recuerda seguir practicando.\n
-    - Vuelve pronto para seguir practicando.\n
-
-
-    +[el]verbo to have
-    -Puede usarse como verbo principal en las oraciones con su significado: "tener" o como verbo auxiliar con su significado "haber".\n
-    ^Puedes checar los ejemplos del verbo to have.\n
-
-    +[los]ejemplos del verbo to have
-    -Estos son algunos ejemplos del verbo to have\n
-    ^to have "Tener":\n
-    ^I have a son - Yo tengo un hijo.\n
-    ^You have a son - Tú tienes un hijo.\n
-    ^He/She has a son - Él/Ella tiene un hijo.\n
-    ^We have a son - Nosotros tenemos un hijo.\n
-    ^You have a son - Ustedes tienen un hijo.\n
-    ^They have a son - Ellos tienen un hijo.\n\n
-    ^Estos son algunos ejemplos del verbo to have "HABER".\n
-    ^to have "Haber":\n
-    ^I have walked - Yo he caminado.\n
-    ^You have walked - Tú has caminado.\n
-    ^He/she has walked - Él/ella ha caminado.\n
-    ^We have walked - Nosotros hemos caminado.\n
-    ^You have walked - Ustedes han caminado.\n
-    ^They have walked - Ellos han caminado.\n
-    ^¿Gustas saber algun otro tema de la tercera seccion o ir a otra seccion?\n
-
-
-    +[el]verbo to do
-    -Puede ser empleado como verbo ordinario cuyo significado es "hacer" o como verbo auxiliar en diferentes tiempos verbales.\n
-    ^Enseguida te muestro las cojugaciones..\n\n
-    ^Conjugación en el modo indicativo del Presente Simple:\n
-    ^I do - yo hago\n
+    +[el]verbo to do presente simple
+    -I do - yo hago\n
     ^You do - tu haces\n
     ^He  does - el hace\n
     ^She does - ella hace\n
     ^It does - el/ella hace\n
     ^We do - nosotros hacemos\n
     ^You do - ustedes hacen\n
-    ^They do - ellos hacen\n\n
+    ^They do - ellos hacen\n\n {topic=verbotodopresentesimple}
 
-    ^El verbo HACER en el Pasado Simple\n
-    ^I did - yo hice\n
+
+    +[el]verbo to do pasado simple
+    -I did - yo hice\n
     ^You did - tu hiciste\n
-    ^He  did - el hizo\n
+    ^He did - el hizo\n
     ^She did - ella hizo\n
     ^It did - el/ella hizo\n
     ^We did - nosotros hicimos\n
     ^You did - ustedes hicieron\n
-    ^They did - ellos hicieron\n\n
-    ^Puedes checar los ejemplos del verbo to do.\n
+    ^They did - ellos hicieron\n{topic=verbotodopasadosimple}
 
-    +[los]ejemplos del verbo to do
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+
+
+< topic
+
+> topic verbotobeafirmativo includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    + i
+    - I am Spanish - soy español-soy española\n
+    ^ I am at work - estoy en el trabajo\n
+    ^ I am nice - Soy agradable \n
+    ^ I am tired - Estoy cansado\n
+    ^ I am from London - Yo soy de Londres\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?\n
+
+
+    + you
+    - You are nice - Eres simpático-eres simpática \n
+    ^ You are tired - Estás cansado-estás cansada\n
+    ^ You are Spanish - Eres español\n
+    ^ You are at work - Estás en el trabajo\n
+    ^ You are from London - Eres de Londres\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    + he
+    - He is from London - Él es de Londres\n
+    ^ He is ill - Él está enfermo\n
+    ^ He is tired - Está cansado\n
+    ^ He is Spanish - Él es español\n
+    ^ He is at work - Él esta en el trabajo\n
+    ^ ¿Hay otros verbos en to be?\n
+
+    + she
+    - She is American - Ella es americana\n
+    ^ She is at home - Ella está en casa\n
+    ^ She is tired - Ella está cansado\n
+    ^ She is Spanish - Élla es española\n
+    ^ She is at work - Élla esta en el trabajo\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    + it
+    - It is late - Es tarde\n
+    ^ It is broken - Está roto\n
+    ^ It is tired - Está cansado\n
+    ^ It is Spanish - Es española\n
+    ^ It is at work - Esta en el trabajo\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    + we
+    - We are good friends - somos buenos amigos-somos buenas amigas \n
+    ^ We are always together - siempre estamos juntos-siempre estamos juntas \n
+    ^ We are tired - Estamos cansados\n
+    ^ We are Spanish - Somos españoles\n
+    ^ We are at work - Estamos en el trabajo\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    + they
+    - They are worried - ellos están preocupados-ellas están preocupadas\n
+    ^ They are happy - ellos son felices-ellas son felices\n
+    ^ They are tired - Ellos estan cansados\n
+    ^ They are Spanish - Ellos son españoles\n
+    ^ They are at work - Esllos estan el trabajo\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+< topic
+
+> topic verbotobenegativo includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    +i
+    -I am not a good student - Yo no soy un buen estudiante.\n
+    ^I am not now in a position to help you - No estoy en condiciónes de ayudarte.\n
+    ^I am not ugly - Yo no soy feo\n
+    ^I am not in Paris - Yo no estoy en París\n
+    ^I am not late - No llego\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +you
+    -You are not ugly - Tú no eres feo\n
+    ^You are not in Paris - Tú no estás en París\n
+    ^You are not late - No has llegado tarde\n
+    ^You are not a good student - No eres un buen estudiante.\n
+    ^You are not now in a position to help you - No estás en condiciones de ayudarte.\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +he
+    -He wasn’t in the right place - Él no estaba en el sitio adecuado\n
+    ^He is not my son, but my nephew - Él no es mi hijo sino mi sobrino.\n
+    ^He is not a doctor	- Él no es un doctor\n
+    ^He is not in Paris - Él no esta en París\n
+    ^He is not late - Él no ha llegado tarde\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +she
+    -She is not my mother but my oldest sister - Ella no es mi madre, sino mi hermana mayor\n
+    ^She is not a teacher - Ella no es una maestra\n}
+    ^She is not a doctor	- Ella no es un doctor\n
+    ^She is not in Paris - Ella no esta en París\n
+    ^She is not late - Ella no ha llegado tarde\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +it
+    -It is not my fault, is it? - Esto no es culpa mía, ¿verdad?\n
+    ^It is not easy to speak naturally on the radio - No es fácil hablar de forma natural en la radio.\n
+    ^It is not easy to find recognition - No es fácil encontrar reconocimiento.
+    ^It is not in Paris - Ella no esta en París\n
+    ^It is not late - Ella no ha llegado tarde\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +we
+    -We are not students - No somos estudiantes.\n
+    ^We are not easy to speak naturally on the radio - No somos fáciles de hablar naturalmente en la radio.\n
+    ^We are not easy to find recognition - No somos fáciles de encontrar reconocimiento.\n
+    ^We are not in Paris - No estamos en París.\n
+    ^We are not late - No estamos tarde.\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +they
+    -They are not my real parents - Ellos no son mis verdaderos padres.\n
+    ^They are not interested in other languages - No les interesan las otras lenguas.\n
+    ^They are not in New York - No están en Nueva York\n
+    ^They are not in Paris - No están en París\n
+    ^They are not late - No llegan tarde\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+< topic
+
+> topic verbotobeinterrogativo includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    +am i
+    -Am I a good student? - ¿Soy un buen estudiante?.\n
+    ^Am I in love? - ¿Estoy enamorado?\n
+    ^Am I Obsessive? - ¿Estoy obeso?
+    ^Am I reprobate? - ¿Estoy reprobado?
+    ^Am I happy in your house? - ¿Estoy feliz en tu casa?\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +are
+    -Are you guys from Austria, or is it Australia? - ¿Venís de Austria o de Australia?\n
+    ^Are you guys really cousins? - ¿En serio son primos?\n
+    ^Are you ready to begin? - ¿Están listos para empezar?\n
+    ^Are you crazy? - ¿Estás loco?\n
+    ^Are you happy in your house? - ¿Estás feliz en tu casa?\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +is he
+    -Is he a student? - ¿Él es un estudiante?.\n
+    ^Is he a businessman? - ¿Él es un hombre de negocios?\n
+    ^Is he a lawyer? - ¿Él es un abogado?.\n
+    ^Is he ready to begin? - ¿Esta listo para empezar?\n
+    ^Is he crazy? - ¿Está loco?\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +is she
+    -Is she sick today?  - ¿Ella está enferma hoy?.\n
+    ^Is she a young woman? - ¿Ella es una mujer joven?.\n
+    ^Is she angry? - ¿Ella esta enojada?.\n
+    ^Is she ready to begin? - ¿Esta lista para empezar?\n
+    ^Is she crazy? - ¿Está loca?\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +is it
+    -Is it a sunny day? - ¿Es un día soleado?.\n
+    ^Is it a good movie? - ¿Es una buena película?.\n
+    ^Is it angry? - ¿Esta enojado?.\n
+    ^Is it ready to begin? - ¿Esta listo para empezar?\n
+    ^Is it crazy? - ¿Es una loca?\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +are we
+    -Are we old friends? - ¿Somos viejos amigos?.\n
+    ^Are we lazy?—Nosotros somos perezosos?\n
+    ^Are we crazy? - ¿EStamos locos?\n
+    ^Are we angry? - ¿Somos enojones?.\n
+    ^Are we ready to begin? - ¿Estan listos para empezar?\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+
+    +are they
+    -Are they crazy? - Ellos son locos?\n
+    ^Are they from USA? - ¿Son ellos de Estados Unidos?)\n
+    ^Are they at the bank? - ¿Están ellos en el banco?\n
+    ^Are they reprobate? - ¿Estos estan reprobado?
+    ^Are they happy in your house? - ¿Son felices en tu casa?\n
+    ^ ¿Hay otros verbos en to be deseas repasarlos?
+< topic
+
+> topic verbotohavetener includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    +i
+    -I have a son - Yo tengo un hijo.\n
+    ^I have one sister and four brothers - Yo tengo una hermana y cuatro hermanos\n
+    ^I have blue eyes - Yo tengo ojos azules\n
+    ^I have a date with her tonight - Yo tengo una cita con ella esta noche\n
+    ^I have a bicycle - Tengo una bicicleta\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    + you
+    -You have a son - Tú tienes un hijo.\n
+    ^You have brown eyes - Tú tienes ojos cafés\n
+    ^You have a bicycle - Tú tienes una bicicleta\n
+    ^You have many cousins - Tú tienes muchos primos\n
+    ^You have the book - Tú tienes el libro\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +he
+    -He has a son - Él tiene un hijo.\n
+    ^He has many cousins - Él tiene muchos primos\n
+    ^He has the book - Él tiene el libro\n
+    ^He has brown eyes - Él tiene ojos cafés\n
+    ^He has a bicycle - Él tiene una bicicleta\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +she
+    -She has the book - Ella tiene el libro\n
+    ^She has a son - Ella tiene un hijo.\n
+    ^She has many cousins - Ella tiene muchos primos\n
+    ^She has brown eyes - Ella tiene ojos cafés\n
+    ^She has a bicycle - Ella tiene una bicicleta\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+
+    +we
+    -We have a son - Nosotros tenemos un hijo.\n
+    ^We have brown hair. (Tenemos pelo moreno.)\n
+    ^We have money - Nosotros tenemos dinero\n
+    ^We have a blue car - Nosotros tenemos un carro azul\n
+    ^We have a bicycle - Nosotros tenemos una bicicleta\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +you
+    -You have a son - Ustedes tienen un hijo.\n
+    ^You have a very big house - Ustedes tienen una casa muy grande\n
+    ^You have a lot of health - Ustedes tienen mucha salud\n
+    ^You have a trip - Ustedes tienen un viaje\n
+    ^You have a bicycle - Ustedes tienen una bicicleta\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +they
+    -They have a son - Ellos tienen un hijo.\n
+    ^They have red hair - Ellos tienen cabello rojo\n
+    ^They have many friends in Germany - Ellos tienen muchos amigos en Alemania\n
+    ^They have a trip - Ellos tienen un viaje\n
+    ^They have a bicycle - Ellos tienen una bicicleta\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+< topic
+
+> topic verbotohavehaber includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    +i
+    -I had walked - Yo habia caminado.\n
+    ^I had drawn - yo habia dibujado.\n
+    ^I had studied a lot for the exam - Yo habia estudiado mucho para el examen\n
+    ^I had mistreated my brother - yo habia maltratado ami hermano\natural
+    ^I had prepared the dinner - yo habia preparado la cena\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+
+    +you
+    -You had walked - Tú habias caminado.\n
+    ^You had drawn - Tú habias dibujado.\n
+    ^You had studied a lot for the exam - Tú habias estudiado mucho para el examen\n
+    ^You had mistreated my brother - Tú habias maltratado ami hermano\natural
+    ^You had prepared the dinner - Tú habiass preparado la cena\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +he
+    -He had walked - Él habia caminado.\n
+    ^He had drawn - Él habia dibujado.\n
+    ^He had studied a lot for the exam - Él habia estudiado mucho para el examen\n
+    ^He had mistreated my brother - Él habia maltratado ami hermano\natural
+    ^He had prepared the dinner - Él habia preparado la cena\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +she
+    -SHe had walked - Ella habia caminado.\n
+    ^She had drawn - Ella habia dibujado.\n
+    ^She had studied a lot for the exam - Ella habia estudiado mucho para el examen\n
+    ^She had mistreated my brother - Ella habia maltratado ami hermano\natural
+    ^She had prepared the dinner - Ella habia preparado la cena\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +we
+    -We had walked - Nosotros habíamos caminado.\n
+    ^We had drawn - Nosotros habíamos dibujado.\n
+    ^We had studied a lot for the exam - Nosotros habíamos estudiado mucho para el examen\n
+    ^We had mistreated my brother - Nosotros habíamos maltratado ami hermano\natural
+    ^We had prepared the dinner - Nosotros habíamos preparado la cena\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +you
+    -You had walked - Ustedes habian caminado.\n
+    ^You had drawn - Ustedes habian dibujado.\n
+    ^You had studied a lot for the exam - Ustedes habian estudiado mucho para el examen\n
+    ^You had mistreated my brother - Ustedes habian maltratado ami hermano\natural
+    ^You had prepared the dinner - Ustedes habian preparado la cena\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+    +they
+    -They had walked - Ellos habian caminado.\n
+    ^They had drawn - Ellos habian dibujado.\n
+    ^They had studied a lot for the exam - Ellos habian estudiado mucho para el examen\n
+    ^They had mistreated my brother - Ellos habian maltratado ami hermano\natural
+    ^They had prepared the dinner - Ellos habian preparado la cena\n
+    ^ ¿Hay otros verbos en to have deseas repasarlos?
+
+< topic
+
+> topic verbotodopresentesimple includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    +i do
     -I do my homework - Yo hago mi tarea.\n
-    ^I make cakes - Yo hago pasteles.\n
-    ^I did my homework - Yo hice mi tarea.\n
-    ^I made cakes - Yo hice pasteles.\n
-    ^Do you study the lesson? - ¿Estudias la lección?\n
-    ^You don’t study the lesson. - Tú no estudias la lección.\n\n
-    ^¿Gustas saber algun otro tema de la tercera seccion o ir a otra seccion?\n
+    ^I do make cakes - Yo hago pasteles.\n
+    ^I do sport - Yo hago deporte\n
+    ^I do you study the lesson - Estudias la lección\n
+    ^I do make the food - Yo hago la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
+    +you
+    -You do my homework - Tú haces mi tarea.\n
+    ^You do make cakes - Tú haces pasteles.\n
+    ^You do sport - Tú haces deporte\n
+    ^You do you study the lesson - Tú estudias la lección\n
+    ^You do make the food - Tú haces la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
+    +he does
+    -He does my homework - Él hace mi tarea.\n
+    ^He does make cakes - Él hace pasteles.\n
+    ^He does sport - Él hace deporte\n
+    ^He does you study the lesson - Él estudia la lección\n
+    ^He does make the food - Él hace la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
+    +she does
+    -She does my homework - Ella hace mi tarea.\n
+    ^She does make cakes - Ella hace pasteles.\n
+    ^She does sport - Ella hace deporte\n
+    ^She does you study the lesson - Ella hace la lección\n
+    ^She does make the food - Ella hace la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    +[los]tiempos verbales
-    -Hola hay 3 tiempos verbales Presente Pasado Futuro.\n\n
-    ^El tiempo verbal simple: simplemente muestra cuándo la acción ocurre.\n
-    ^-Simple Past | Simple Present | Simple Future\n\n
-    ^El tiempo verbal simple: simplemente muestra cuándo la acción ocurre.\n
-    ^-Past Progressive | Present Progressive | Future Progressive\n\n
-    ^El tiempo verbal perfecto: significa que la acción ha sido completada.\n
-    ^-Past Perfect | Present Perfect | Future Perfect\n\n
-    ^Los tiempos perfectos progresivos o continuos: indican que la acción empezó, continuó y fue completada.\n
-    ^-Past Perfect Continuous | Present Perfect Continuous | Future Perfect Continuous\n\n
-    ^si gustas puedes ver los ejemplos de tiempos verbales\n
+    +it does
+    -It does my homework - Ella hace mi tarea.\n
+    ^It does make cakes - Ella hace pasteles.\n
+    ^It does sport - El hace deporte\n
+    ^It does you study the lesson - Ella hace la lección\n
+    ^It does make the food - Ella hace comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    +[los]ejemplos de tiempos verbales
-    -Estos son algunos ejemplos de los tiempos verbales\n\n
-    ^TIEMPOS VERBALES PASADOS\n
-    ^Past Simple:Did he speak? - ¿Habló él?\n
-    ^Past Continuous:Was he speaking? - ¿Estaba hablando?\n
-    ^Past Perfect:Had he spoken? - ¿Había hablado?\n
-    ^Past Perfect Continuous:Had he been speaking? - ¿Había estado hablando?\n
-    ^Conditional Perfect:Would he have spoken? - ¿Habría hablado?\n
-    ^Conditional Continuous Perfect:Would he have been speaking? - ¿Habría estado hablando?\n\n
+    +we do
+    -We do my homework - Nosotros hacemos mi tarea.\n
+    ^We do make cakes - Nosotros hacemos pasteles.\n
+    ^We do sport - Nosotros hacemos deporte\n
+    ^We do you study the lesson - Nosotros hacemos la lección\n
+    ^We do make the food - Nosotros hacemos la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    ^TIEMPOS VERBALES PRESENTES\n
-    ^Present Simple:Does he speak? - ¿El habla?\n
-    ^Present Continuous:Is he speaking? - ¿Está hablando?\n
-    ^Present Perfect:Has he spoken? - ¿Ha hablado?\n
-    ^Present Perfect Continuous:Has he been speaking? - ¿Ha estado hablando?\n
-    ^Conditional Simple:Would he speak? - ¿Hablaría?\n
-    ^Conditional Continuo:Would he be speaking? - ¿Estaría hablando?\n\n
-    ^TIEMPOS VERBALES FUTUROS\n\n
+    +you do
+    -You do my homework - Ustedes hacen mi tarea.\n
+    ^You do make cakes - Ustedes hacen pasteles.\n
+    ^You do sport - Ustedes hacen deporte.\n
+    ^You do you study the lesson - Ustedes hacen la lección.\n
+    ^You do make the food - Ustedes hacen la comida.\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    ^Future Simple:Will he speak? - ¿Hablará?\n
-    ^Future Continuous:Will he be speaking? - ¿Estaría hablando?\n
-    ^Future Perfect:Will he have spoken? - ¿Habrá hablado?\n
-    ^Future Perfect Continuous:Will he have been speaking? - ¿Habrá estado hablando?\n
-    ^Future going to:Is he going to speak? - ¿Va a hablar?\n
-    ^¿Gustas seleccionar algo mas de la tercera seccion?.\n
-    ^¿Gustas saber algun otro tema de la tercera seccion o ir a otra seccion?\n
+    +they do
+    -They do my homework - Ellos hacen mi tarea.\n
+    ^They do make cakes - Ellos hacen pasteles.\n
+    ^They do sport - Ellos hacen deporte\n
+    ^They do you study the lesson - Ellos hacen la lección\n
+    ^They do make the food - Ellos hacen la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
+< topic
 
+> topic verbotodopasadosimple includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
 
-    +[las]formas cortas
-    -Algunas formas cortas van detras de pronombres como I,You,He...\n
-    ^Puedes ver algunas formas cortas que tenemos como ejemplos.\n
+    +i did
+    -I did my homework - Yo hice mi tarea.\n
+    ^I did make cakes - Yo hice pasteles.\n
+    ^I did sport - Yo hice deporte\n
+    ^I did you study the lesson - Hice la lecciónn\n
+    ^I did make the food - YO hice la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    +[los]ejemplos de formas cortas
-    -Forma corta en lenguaje Coloquial y en cartas informales.\negativo\n
-    ^am presente verbo to be	I’m\n
-    ^are presente verbo to be	you’re, we’re, you’re, they’re\n
-    ^is presente verbo to be	he’s, she’s, it’s\n
-    ^has presente verbo to have	he’s, she’s, it’s\n
-    ^have presente verbo to have	I’ve, you’ve, we’ve, they’ve\n
-    ^had pasado verbo to have	I’d, you’d, he’d, she’d, it’d, we’d, they’d\n
-    ^would condicional	I’d, you’d, he’d, she’d, it’d, we’d, they’d\n
-    ^will futuro	I’ll, you’ll, he’ll, she’ll, it’ll, we’ll, you’ll, they’ll\n
-    ^shall futuro	I’ll, we’ll\n\n
+    +you did
+    -You did my homework - Tú hiciste mi tarea.\n
+    ^You did make cakes - Tú hiciste pasteles.\n
+    ^You did sport - Tú hiciste deporte\n
+    ^You did you study the lesson - Tú hiciste la lección\n
+    ^You did make the food - Tú hiciste la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    ^Forma Corta Pronombres interrogativos.\n
-    ^is presente verbo to be	what’s, who’s, when’s, how’s…\n
-    ^had pasado verbo to have	who’d\n
-    ^would condicional who’d\n
-    ^will futuro  what’ll, who’ll\n \n
+    +he  did
+    -He did my homework - Él hizo mi tarea.\n
+    ^He did make cakes - Él hizo pasteles.\n
+    ^He did sport - Él hizo deporte\n
+    ^He did you study the lesson - Él hizo la lección\n
+    ^He did make the food - Él hizo la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    ^Forma Cortas con here, there y that.\n
-    ^here is - here’s\n
-    ^there is / there will - there’s / there’ll\n
-    ^that is / that will - that’s / that’ll\n\n
+    +she did
+    -She did my homework - Ella hizo mi tarea.\n
+    ^She did make cakes - Ella hizo pasteles.\n
+    ^She did sport - Ella hizo deporte\n
+    ^She did you study the lesson - Ella hizo la lección\n
+    ^She did make the food - Ella hizo la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-    ^Forma corta de algunos verbos en negativo.\n
-    ^is presente verbo to be - is not - isn’t\n
-    ^are presente verbo to be - are not - aren’t\n
-    ^do presente verbo to do do not - don’t\n
-    ^does presente verbo to do does not - doesn’t\n
-    ^did pasado verbo to do did not - didn’t\n
-    ^has presente verbo to have has not - hasn’t\n
-    ^have presente verbo to have have not - haven’t\n
-    ^had pasado verbo to have	had not	- hadn’t\n
-    ^would, can, must, need, should - would not, can not, must not - wouldn’t, can’t, mustn’t, needn’t, shouldn’t…\n
-    ^will futuro	will not - won’t\n
-    ^shall futuro	shall not - shan’t\n
-    ^¿Gustas saber algun otro tema de la tercera seccion o ir a otra seccion?\n
+    +it did
+    -It did my homework - Ella hizo mi tarea.\n
+    ^It did make cakes - Ella hizo pasteles.\n
+    ^It did sport - El hizo deporte\n
+    ^It did you study the lesson - Ella hizo la lección\n
+    ^It did make the food - Ella hizo comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
+    +we did
+    -We did my homework - Nosotros hicimos mi tarea.\n
+    ^We did make cakes - Nosotros hicimos pasteles.\n
+    ^We did sport - Nosotros hicimos deporte\n
+    ^We did you study the lesson - Nosotros hicimos la lección\n
+    ^We did make the food - Nosotros hicimos la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
+    +you did
+    -You did my homework - Hicimos mi tarea.\n
+    ^You did make cakes - Hicimos pasteles.\n
+    ^You did sport - Hicimoss deporte.\n
+    ^You did you study the lesson - Hicimos la lección.\n
+    ^You did make the food - Hicimos la comida.\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
 
-     +[el]vocabulario familiar
-    - Todos desempeñamos diferentes roles en el “árbol genealógico”,\n
-    ^ ¿Pero sabes cómo nombrar cada miembro de la familia en inglés?.\n
-    ^ Es muy facil en seguida que los muestro.\n
-    ^ Abuela - Grandmother.\n
+    +they did
+    -They did my homework - Ellos hicieron mi tarea.\n
+    ^They did make cakes - Ellos hicieron pasteles.\n
+    ^They did sport - Ellos hicieron deporte\n
+    ^They did you study the lesson - Ellos hicieron la lección\n
+    ^They did make the food - Ellos hicieron la comida\n
+    ^ ¿Hay otros verbos en to do deseas repasarlos?
+
+< topic
+
+> topic vocabulariofamiliar includes terceraseccion
+    + @si
+    - Perfecto,dime ¿cuál tema quieres de la tercera seccion?\n
+	- Muy bien, ¿dime que tema quieres de la tercera seccion?\n
+	- Claro, ¿dime que tema quieres de la tercera seccion?\n
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n
+    - Recuerda seguir practicando.\n
+    - Vuelve pronto para seguir practicando.\n
+
+    + vocabulario familiar
+    - Abuela - Grandmother.\n
     ^ Abuelo - Grandfather.\n
     ^ Bisabuela - Great grandmother.\n
     ^ Bisabuelo - Great grandfather.\n
@@ -214,41 +636,24 @@
     ^ Tía - Aunt.\n
     ^ Tío - Uncle.\n
     ^ Yerno - Son in law.\n
-    ^Puedes ver los ejemplos del vocabulario familiar
+    ^ ¿Hay deseas repasar alguna otra seccion?
+< topic
 
-
-    +[los]ejemplos del vocabulario familiar
-    - Who is your brother? - ¿Quién es tu hermano?.\n
-    ^How is your mother doing?¿Cómo está tu mamá?.\n
-    ^What is your father like?  - ¿Cómo es tu padre?.\n
-    ^What does your daughter look like? - ¿Cómo es físicamente tu hija?.\n
-    ^What is your sister’s name? - ¿Cómo se llama tu hermana?.\n
-    ^Do you have any children? - ¿Tienes hijos?.\n
-    ^Are you married? - ¿Estás casado/a?.\n
-    ^¿Gustas saber algun otro tema de la tercera seccion o ir a otra seccion?\n
-
-    +primera seccion
-    -{topic=segundaseccion}
-
-    +segunda seccion
-    -{topic=segundaseccion}
-    ^ Ok, dentro de la segunda seccion tengo los siguientes temas:\n
-	^ Los pronombres personales.\n
-	^ Los números cardinales y ordinales.\n
-	^ Formar plurales con los sustantivos.\n
-	^ Vocabulario: Saludos, despedidas y presentaciones New.\n
-	^ Vocabulario: Las personas.\n
-	^ ¿Cuál tema de la segunda sección te interesa repasar?
-
-    +tercera seccion
-    -{topic=segundaseccion}
-    ^Estos son los temas de la tercera sección. {topic=terceraseccion}\n
-	^ Verbo to be\n
-	^ Verbo to have\n
-	^ Verbo to do\n
-	^ Tiempos verbales\n
-	^ Formas cortas\n
-	^ Vocabulario familiar\n
-
+> topic formascortas includes terceraseccion
+    +formas cortas
+    -I am - I’m.\n
+    ^you are - you’re.\n
+    ^he is - he’s.\n
+    ^she is - she’s.\n
+    ^it is - it’s.\n
+    ^we are - we’re.\n
+    ^they are - they’re.\n\n
+    ^Formas negativa\n\n
+    ^I am not - I’m not
+    ^you are not - you’re not - you aren’t\n
+    ^he is not - he’s not - he isn’t\n
+    ^she is not - she’s not - she isn’t\n
+    ^it is not - it’s not - it isn’t\n
+    ^we are not - we’re not - we aren’t\n
 
 < topic

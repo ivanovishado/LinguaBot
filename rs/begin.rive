@@ -26,7 +26,7 @@
 ! array si					 = sí si afirmativo ok bien claro yeah yes gracias
 ! array no					 = no nel nah nope
 ! array saludos				 = hola|buenos dias|buenos días|buenas tardes|buenas noches|qué onda
-^ qué tal|que onda|que tal|hi|hellow
+^ qué tal|que onda|que tal|hi|hellow|hello
 ! array despedidas			 = adios|adiós|goodbye|good bye|hasta luego|bye
 ! array decirnombre			 = mi nombre es|me llamo|soy|me dicen
 ! array gracias				 = muchas gracias|gracias|bien gracias

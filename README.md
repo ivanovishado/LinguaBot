@@ -1,8 +1,13 @@
 # LinguaBot+
 
-Chatbot webhooks para facebook
+Chatbot asistente para el repaso del idioma inglés.
 
 ## Instalación
+
+### Instalar Redis
+
+Más información
+[aquí](https://redis.io/download)
 
 Para obtener el código puede clonarlo o bajarlo
 
@@ -27,7 +32,7 @@ Activar virtualenv en el directorio con el código
 
     source facebook_chatbot/bin/activate
 
-## Instalar los requierements
+## Instalar los requirements
 
 En el directorio del código hacer
 
@@ -42,12 +47,12 @@ en una dirección url pública
     2. Descomprimir
     3. Ejecutar
 
-        ./ngrok http 5000
+        ./ngrok http <puerto>
 
     4. Al ejecutarse te dará una dirección publica, con esa hay que configurar
        el chatbot en facebook
 
-Nota, en caso de usar otro puerto, registrarlo de esa forma.
+Donde <puerto> es el puerto escrito en "server.py" (default=8080).
 
 ## Chatbot en Facebook
 
@@ -64,6 +69,6 @@ Nota, en caso de usar otro puerto, registrarlo de esa forma.
 
 Para ejecutarlo de forma normal
 
-    python app.py
+    python server.py
 
-Despues de esto ir al navegador y la siguiente dirección: http://127.0.0.1:5000/
+Despues de esto, comprobar que el chatbot responda desde Messenger.

@@ -9,12 +9,16 @@ topicos = {
                             "yourselves", "themselves", "each other"],
     'plurales': ["s", "es", "ies", "ves"],
     'presentaciones': ["saludos", "despedidas", "nuevas presentaciones"],
-    'temas_de_la_segunda_seccion': ["pronombres personales", "números", "formar plurales",
-                                    "vocabulario"],
+    'temas_de_la_segunda_seccion': ["pronombres personales", "números ordinales",
+                                    "números cardinales", "formar plurales", "vocabulario"],
     'tipos_de_pronombres': ["sujeto", "adjetivo", "objeto", "posesivos", "reflexivos"],
     'tipos_de_sustantivos': ["plural", "singular"],
     'tipos_de_singular': ["regulares", "irregulares"],
-    'tipos_de_numeros': ["cardinales", "ordinales"]
+    'tipos_de_numeros': ["cardinales", "ordinales"],
+    'numeros_cardinales': ["1 al 12", "13 al 19", "20 al 90", "formar decenas", "formar centenas",
+                        "centenas con docenas", "millares", "millones"],
+    'numeros_ordinales': ["primero al tercero", "cuarto al decimoavo", "docenas millares millon",
+                       "formar decenas"]
 }
 
 

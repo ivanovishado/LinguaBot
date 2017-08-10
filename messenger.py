@@ -25,6 +25,9 @@ page.greeting("LinguaBot+, tu mejor opción para el asesoramiento del idioma ing
 page.show_starting_button("START_PAYLOAD")
 
 
+#MÉTODOS MODIFICADOS Y/O CREADOS
+
+
 @page.callback(['START_PAYLOAD'])
 def start_callback(payload, event):
     print("Let's start!")
@@ -81,31 +84,6 @@ def delete_persistent_menu():
     requests.delete("https://graph.facebook.com/v2.6/me/messenger_profile?access_token=" +
                       CONFIG['FACEBOOK_TOKEN'], data=json.dumps(delete))
 
-
-@page.handle_optin
-def received_authentication(event):
-    sender_id = event.sender_id
-    recipient_id = event.recipient_id
-    time_of_auth = event.timestamp
-
-    pass_through_param = event.optin.get("ref")
-
-    print("Received authentication for user %s and page %s with pass "
-          "through param '%s' at %s" % (sender_id, recipient_id, pass_through_param, time_of_auth))
-
-    page.send(sender_id, "Authentication successful")
-
-
-@page.handle_echo
-def received_echo(event):
-    message = event.message
-    message_id = message.get("mid")
-    app_id = message.get("app_id")
-    metadata = message.get("metadata")
-    print("page id : %s , %s" % (page.page_id, page.page_name))
-    print("Received echo for message %s and app %s with metadata %s" % (message_id, app_id, metadata))
-
-
 @page.handle_message
 def received_message(event):
     sender_id = event.sender_id
@@ -139,9 +117,9 @@ def received_message(event):
         if quick_reply:
             entrada_usuario = event.quick_reply_payload.replace('PICK_', '')
         else:
-            entrada_usuario = elimina_tildes(message_text)
-        res_bot = bot.reply(sender_id, entrada_usuario)
-        res_ejem = re.search('[Qq]uieres(?:\salgunos)? ejemplos de .*', res_bot)
+            entrada_usuario = message_text
+        res_bot = bot.reply(sender_id, elimina_tildes(entrada_usuario))
+        res_ejem = re.search('¿[Qq]uieres .*', res_bot)
         res_topic = re.search('[Cc]u[aá]l(?:es)? de los (?P<topico>.*) (?:te interesa|quieres) '
                                'repasar', res_bot)
         res_tema = re.search('[Cc]u[aá]l (?P<tema>.*) (?:(?:es el que\s?)?quieres|te interesan|'
@@ -160,6 +138,77 @@ def received_message(event):
         page.send(sender_id, "Message with attachment received")
 
 
+def manejar_saludo(sender_id, nombre_usuario):
+    if bot.get_uservar(sender_id, 'nombre') is None:
+        mensaje = "Parece que es la primera vez que vienes por aquí.\n" \
+                  "¡Te doy la bienvenida como tu asesor de inglés!"
+    else:
+        mensaje = "¡Qué gusto volver a verte!\n" \
+                  "¿Cómo estás el día de hoy?"
+    bot.set_uservar(sender_id, 'nombre', nombre_usuario)
+    page.send(sender_id, "Hola, " + nombre_usuario + ".\n" + mensaje)
+
+
+@page.handle_postback
+def received_postback(event):
+    sender_id = event.sender_id
+    recipient_id = event.recipient_id
+    time_of_postback = event.timestamp
+
+    payload = event.postback_payload
+
+    delete_persistent_menu()
+
+    print("Received postback for user %s and page %s with payload '%s' at %s"
+          % (sender_id, recipient_id, payload, time_of_postback))
+    manejar_saludo(sender_id, page.get_user_profile(event.sender_id)['first_name'])
+
+
+def send_quick_reply(recipient, pregunta, quick_replies):
+    """
+    shortcuts are supported
+    page.send(recipient, "What's your favorite movie genre?",
+                quick_replies=[{'title': 'Action', 'payload': 'PICK_ACTION'},
+                               {'title': 'Comedy', 'payload': 'PICK_COMEDY'}, ],
+                metadata="DEVELOPER_DEFINED_METADATA")
+    """
+    page.send(recipient, pregunta, quick_replies=quick_replies,
+              metadata="DEVELOPER_DEFINED_METADATA")
+
+
+def genera_quick_replies(palabras):
+    quick_replies = []
+    for palabra in palabras:
+        quick_replies.append({'title': palabra.title(), 'payload': 'PICK_' + palabra.upper()})
+    return quick_replies
+
+#AQUÍ TERMINAN LOS MÉTODOS MODIFICADOS Y/O CREADOS
+
+
+@page.handle_optin
+def received_authentication(event):
+    sender_id = event.sender_id
+    recipient_id = event.recipient_id
+    time_of_auth = event.timestamp
+
+    pass_through_param = event.optin.get("ref")
+
+    print("Received authentication for user %s and page %s with pass "
+          "through param '%s' at %s" % (sender_id, recipient_id, pass_through_param, time_of_auth))
+
+    page.send(sender_id, "Authentication successful")
+
+
+@page.handle_echo
+def received_echo(event):
+    message = event.message
+    message_id = message.get("mid")
+    app_id = message.get("app_id")
+    metadata = message.get("metadata")
+    print("page id : %s , %s" % (page.page_id, page.page_name))
+    print("Received echo for message %s and app %s with metadata %s" % (message_id, app_id, metadata))
+
+
 @page.handle_delivery
 def received_delivery_confirmation(event):
     delivery = event.delivery
@@ -171,30 +220,6 @@ def received_delivery_confirmation(event):
             print("Received delivery confirmation for message ID: %s" % message_id)
 
     print("All message before %s were delivered." % watermark)
-
-
-@page.handle_postback
-def received_postback(event):
-    sender_id = event.sender_id
-    recipient_id = event.recipient_id
-    time_of_postback = event.timestamp
-
-    payload = event.postback_payload
-
-    print("Received postback for user %s and page %s with payload '%s' at %s"
-          % (sender_id, recipient_id, payload, time_of_postback))
-    manejar_saludo(sender_id, page.get_user_profile(event.sender_id)['first_name'])
-
-
-def manejar_saludo(sender_id, nombre_usuario):
-    if bot.get_uservar(sender_id, 'nombre') is None:
-        mensaje = "Parece que es la primera vez que vienes por aquí.\n" \
-                  "¡Te doy la bienvenida como tu asesor de inglés!"
-    else:
-        mensaje = "¡Qué gusto volver a verte!\n" \
-                  "¿Cómo estás el día de hoy?"
-    bot.set_uservar(sender_id, 'nombre', nombre_usuario)
-    page.send(sender_id, "Hola, " + nombre_usuario + ".\n" + mensaje)
 
 
 @page.handle_read
@@ -311,30 +336,6 @@ def send_generic(recipient):
     ]))
 
 
-def manda_generic_secciones(recipient):
-    page.send(recipient, Template.Generic([
-        Template.GenericElement("Primera sección",
-                                subtitle="Artículos, preposiciones y vocabulario",
-                                image_url=CONFIG['SERVER_URL'] + "/assets/one.jpg",
-                                buttons=[
-                                    Template.ButtonPostBack("Ver sección", "SECCION 1")
-                                ]),
-        Template.GenericElement("Segunda sección",
-                                subtitle="Pronombres, números, plurales y vocabulario",
-                                image_url=CONFIG['SERVER_URL'] + "/assets/two.jpg",
-                                buttons=[
-                                    Template.ButtonPostBack("Ver sección", "SECCION 2")
-                                ]),
-        Template.GenericElement("Tercera sección",
-                                subtitle="Verbo to be, to have, to do, tiempos verbales, "
-                                          "formas cortas y vocabulario",
-                                image_url=CONFIG['SERVER_URL'] + "/assets/three.jpg",
-                                buttons=[
-                                    Template.ButtonPostBack("Ver sección", "SECCION 3")
-                                ])
-    ]))
-
-
 def send_receipt(recipient):
     receipt_id = "order1357"
     element = Template.ReceiptElement(title="Oculus Rift",
@@ -383,25 +384,6 @@ def send_quick_reply(recipient):
                              QuickReply(title="Comedy", payload="PICK_COMEDY"),
                              QuickReply(title="Ayy lmao", payload="PICK_AYYLMAO")],
               metadata="DEVELOPER_DEFINED_METADATA")
-
-
-def send_quick_reply(recipient, pregunta, quick_replies):
-    """
-    shortcuts are supported
-    page.send(recipient, "What's your favorite movie genre?",
-                quick_replies=[{'title': 'Action', 'payload': 'PICK_ACTION'},
-                               {'title': 'Comedy', 'payload': 'PICK_COMEDY'}, ],
-                metadata="DEVELOPER_DEFINED_METADATA")
-    """
-    page.send(recipient, pregunta, quick_replies=quick_replies,
-              metadata="DEVELOPER_DEFINED_METADATA")
-
-
-def genera_quick_replies(palabras):
-    quick_replies = []
-    for palabra in palabras:
-        quick_replies.append({'title': palabra.title(), 'payload': 'PICK_' + palabra.upper()})
-    return quick_replies
 
 
 '''
