@@ -43,7 +43,8 @@ En el directorio del código hacer
 _ngrok_ es una herramienta de tunel que nos permitirá exponer nuestro servicio
 en una dirección url pública
 
-    1. Obtenerlo [aquí](https://ngrok.com/download)
+    1. Obtenerlo
+    [aquí](https://ngrok.com/download)
     2. Descomprimir
     3. Ejecutar
 
